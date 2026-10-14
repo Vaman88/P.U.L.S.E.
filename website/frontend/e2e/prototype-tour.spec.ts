@@ -31,6 +31,29 @@ for (const width of [1440, 320]) {
       expect(hit, `cursor should land on ${selector} at ${time}ms`).toBe(true)
     }
 
+    const sequence = await page.evaluate(() => {
+      const at = (time: number) => {
+        tourTime = time
+        renderTour()
+        return {
+          email: document.querySelector('#tour-email')!.textContent,
+          password: document.querySelector('#tour-password')!.textContent,
+          sales: document.querySelector('#tour-sales-name')!.textContent,
+          inventory: document.querySelector('#tour-inventory-name')!.textContent,
+        }
+      }
+      return { beforeEmail: at(2700), typingEmail: at(3500), signedUp: at(5400), beforeSales: at(6400), afterSales: at(6600), beforeInventory: at(7350), afterInventory: at(7550) }
+    })
+    expect(sequence.beforeEmail.email).toBe('')
+    expect(sequence.typingEmail.email!.length).toBeGreaterThan(0)
+    expect(sequence.typingEmail.email!.length).toBeLessThan('demo@pulse.example'.length)
+    expect(sequence.signedUp.email).toBe('demo@pulse.example')
+    expect(sequence.signedUp.password).toHaveLength(12)
+    expect(sequence.beforeSales.sales).toBe('No file selected')
+    expect(sequence.afterSales.sales).toContain('sample_sales.csv')
+    expect(sequence.beforeInventory.inventory).toBe('No file selected')
+    expect(sequence.afterInventory.inventory).toContain('sample_inventory.csv')
+
     await page.evaluate(() => {
       tourTime = 13600
       renderTour()
