@@ -51,16 +51,6 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-      <section className="source-preview pulse-container" aria-label="Workspace preview">
-        <div className="source-section-heading pulse-reveal"><p>Inside the workspace</p><h2>The important details, in one place.</h2><span>Illustrative interface</span></div>
-        <div className="source-preview-grid pulse-reveal">
-          <div><p className="source-label">Restock priorities</p><h3>See what may need ordering.</h3><p>Each medication gets a clear view of expected demand and inventory coverage for the next 1, 7, and 14 days.</p>
-            <div className="source-preview-table" role="region" aria-label="Illustrative inventory preview" tabIndex={0}><table><thead><tr><th>Medication</th><th>Demand horizon</th><th>Plan</th></tr></thead><tbody><tr><td>Drug-specific view</td><td>1 · 7 · 14 days</td><td>Stock check</td></tr><tr><td>Inventory balance</td><td>Latest upload</td><td>Order guidance</td></tr></tbody></table></div>
-          </div>
-          <div><p className="source-label">Relevant signals</p><h3>A little more context.</h3><p>A short list of signals associated with medications that may run short.</p><div className="source-context"><h4>Demand context</h4><div className="source-bars" aria-hidden="true">{[35,44,40,57,62,58,74,80,76,90].map((value,index)=><span key={index} style={{height:`${value}%`}} />)}</div><h4>News context</h4><p>Related article headlines appear alongside relevant signals.</p></div></div>
-        </div>
-        <p className="source-footnote">This is a layout preview, not a forecast. Your dashboard is populated only after you train with local files.</p>
-      </section>
       <section id="features" className="source-features pulse-container">
         <div className="source-section-heading pulse-reveal"><p>What PULSE does</p><h2>Answers you can act on, without the noise.</h2><p>Daily sales and current stock become a concise view of demand, purchase needs, and the signals behind them.</p></div>
         <div className="source-feature-list pulse-reveal">{features.map(([title,copy])=><article key={title}><h3>{title}</h3><p>{copy}</p></article>)}</div>

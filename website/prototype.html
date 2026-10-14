@@ -285,177 +285,43 @@ html { scroll-behavior: smooth; }
   .card-copy h3 { min-height: 0; font-size: 20px; }
 }
 
-/* CropIntel-inspired product reel: one useful sequence inside a compact app frame. */
-#home .hero { grid-template-columns: 1fr; min-height: 0; padding: 44px var(--gutter) 30px; text-align: center; }
-#home .hero-copy { max-width: 920px; margin: auto; }
-#home .hero h1 { max-width: none; margin-bottom: 20px; font-size: clamp(56px, 6.6vw, 88px); }
-#home .hero .lead { max-width: 58ch; margin-inline: auto; }
-#home .hero .actions { justify-content: center; }
-#home .hero .btn.secondary { background: #f4fbfc; }
-.quick-tour { background: var(--ice); padding: 0 var(--gutter) 78px; }
-.tour-rail, .tour-controls, .tour-disclosure { max-width: 1200px; margin-inline: auto; }
-.tour-rail { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 0 4px 14px; color: #2e5b62; font-size: 13px; }
-.tour-rail strong { color: #173e43; font-size: 15px; }
-.tour-window { max-width: 1200px; margin: auto; background: #f8fcfc; border: 1px solid #9ac8cd; border-radius: 18px; overflow: hidden; box-shadow: 0 14px 26px #25565d1a; }
-.tour-browser { min-height: 40px; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; padding: 8px 18px; border-bottom: 1px solid #d9e7e7; color: #667e7d; font: 600 11px ui-monospace, SFMono-Regular, Menlo, monospace; }
-.tour-browser > :nth-child(2) { text-align: center; white-space: nowrap; }
-.tour-browser-status { justify-self: end; color: #286c73; letter-spacing: .12em; }
-.tour-browser-dots { display: flex; gap: 5px; }
-.tour-browser-dots i { width: 7px; height: 7px; background: #b4c9c9; border-radius: 50%; }
-.tour-product-head { display: flex; align-items: center; gap: 22px; padding: 16px 30px; border-bottom: 1px solid #d7e4e3; color: #4d6665; font-size: 13px; }
-.tour-product-head strong { color: var(--ink); font: 800 18px Manrope; letter-spacing: -.03em; }
-.tour-product-head strong span { color: #26828b; }
-.tour-product-head small { margin-left: auto; color: #536e6c; font-size: 12px; }
-.tour-stage-area { min-height: 404px; }
-.tour-stage { min-height: 404px; padding: 32px; display: grid; grid-template-columns: minmax(0,.9fr) minmax(0,1.1fr); gap: 36px; align-items: stretch; }
-.tour-stage[hidden] { display: none; }
-.tour-stage.is-active { animation: tour-enter .42s cubic-bezier(.16,1,.3,1) both; }
-@keyframes tour-enter { from { opacity: .5; transform: translateY(8px); filter: blur(4px); } to { opacity: 1; transform: none; filter: none; } }
-.tour-copy { padding: 12px 4px 6px; display: flex; flex-direction: column; align-items: flex-start; min-width: 0; }
-.tour-count { color: #2c747c; font: 700 11px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .12em; margin-bottom: 20px; }
-.tour-copy h2 { font-size: clamp(32px, 3.6vw, 50px); line-height: 1.08; margin-bottom: 16px; }
-.tour-copy p { color: #415b5a; max-width: 43ch; font-size: 16px; line-height: 1.55; }
-.tour-file-list { width: 100%; margin-top: auto; display: grid; gap: 9px; }
-.tour-file { display: flex; align-items: center; gap: 12px; min-width: 0; padding: 10px 12px; border: 1px solid #cfe0df; border-radius: 10px; background: #fff; }
-.tour-file b { background: #d5eef1; color: #175964; padding: 8px; border-radius: 5px; font: 800 11px ui-monospace, SFMono-Regular, Menlo, monospace; }
-.tour-file span { font-size: 14px; font-weight: 700; line-height: 1.25; }
-.tour-file small { display: block; color: #54716e; font-size: 11px; font-weight: 400; margin-top: 3px; }
-.tour-file i { margin-left: auto; color: #1c777c; font-size: 20px; font-style: normal; }
-.tour-stage.is-active .tour-file { animation: tour-file-in .5s cubic-bezier(.16,1,.3,1) both; }
-.tour-stage.is-active .tour-file:nth-child(2) { animation-delay: .2s; }
-@keyframes tour-file-in { from { opacity: .3; transform: translateX(-14px); } to { opacity: 1; transform: none; } }
-.tour-visual { min-width: 0; min-height: 316px; padding: 20px; background: #e3f1f2; border: 1px solid #c5ddde; border-radius: 13px; overflow: hidden; }
-.tour-visual-top { display: flex; justify-content: space-between; gap: 10px; color: #356870; font: 700 11px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .03em; margin-bottom: 18px; }
-.tour-sheet { display: flex; flex-direction: column; background: #e8f4f4; }
-.tour-sheet-head, .tour-sheet-row { display: grid; grid-template-columns: .8fr 1.6fr .5fr; gap: 6px; align-items: center; padding: 12px 14px; border-bottom: 1px solid #d4e5e4; background: #fff; font-size: 13px; }
-.tour-sheet-head { background: #d5e9e9; color: #456966; font: 700 11px ui-monospace, SFMono-Regular, Menlo, monospace; }
-.tour-sheet-row strong { color: #246d74; }
-.tour-stage.is-active .tour-sheet-row { animation: tour-row-in .35s ease-out both; }
-.tour-stage.is-active .tour-sheet-row:nth-of-type(3) { animation-delay: .15s; }
-.tour-stage.is-active .tour-sheet-row:nth-of-type(4) { animation-delay: .3s; }
-.tour-stage.is-active .tour-sheet-row:nth-of-type(5) { animation-delay: .45s; }
-@keyframes tour-row-in { from { opacity: .35; background: #b8e5e8; } to { opacity: 1; background: #fff; } }
-.tour-sheet-footer { margin-top: auto; display: flex; align-items: center; gap: 9px; padding-top: 14px; color: #24585e; font-size: 13px; font-weight: 700; }
-.tour-pulse-dot { display: inline-block; width: 9px; height: 9px; flex: 0 0 auto; border-radius: 50%; background: #2b858c; }
-.tour-facts { display: flex; gap: 10px; width: 100%; margin-top: auto; }
-.tour-facts div { flex: 1; padding: 14px; background: #e4f1f1; border-radius: 8px; }
-.tour-facts strong { display: block; font: 800 28px Manrope; line-height: 1.1; color: #163f45; }
-.tour-facts span { color: #426867; font-size: 12px; }
-.tour-chart { display: flex; flex-direction: column; }
-.tour-chart svg { width: 100%; height: auto; margin: auto 0; overflow: visible; }
-.tour-chart svg text { fill: #426766; font: 700 11px ui-monospace, SFMono-Regular, Menlo, monospace; }
-.tour-chart svg .tour-chart-callout { fill: #875b29; }
-.tour-chart-note { display: none; }
-.tour-chart-grid { fill: none; stroke: #b7d1d1; stroke-dasharray: 4 7; }
-.tour-chart-fill { fill: #c9e4e4; }
-.tour-chart-line { fill: none; stroke: #266e77; stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
-.tour-chart-marker { fill: none; stroke: #a56a2c; stroke-width: 2; stroke-dasharray: 5 5; }
-.tour-chart-dot { fill: #fff; stroke: #a56a2c; stroke-width: 3; }
-.tour-stage.is-active .tour-chart-line { stroke-dasharray: 800; stroke-dashoffset: 800; animation: tour-draw 1.4s cubic-bezier(.16,1,.3,1) .15s forwards; }
-.tour-stage.is-active .tour-chart-dot { opacity: 0; animation: tour-dot-in .3s ease-out 1.2s forwards; }
-@keyframes tour-draw { to { stroke-dashoffset: 0; } }
-@keyframes tour-dot-in { to { opacity: 1; } }
-.tour-context { margin-top: auto; display: flex; align-items: center; gap: 10px; padding: 12px 14px; background: #e5f1f1; border-radius: 8px; color: #285960; font-size: 13px; }
-.tour-order { display: flex; flex-direction: column; background: #d7eaeb; }
-.tour-order-number { display: flex; align-items: baseline; gap: 14px; margin: 6px 0 22px; }
-.tour-order-number strong { font: 800 clamp(75px, 8vw, 118px)/1 Manrope; letter-spacing: -.05em; color: #173e44; }
-.tour-order-number span { color: #38676b; font-size: 16px; font-weight: 700; }
-.tour-stage.is-active .tour-order-number { animation: tour-number-in .65s cubic-bezier(.16,1,.3,1) both; }
-@keyframes tour-number-in { from { opacity: .25; transform: translateY(18px); filter: blur(5px); } to { opacity: 1; transform: none; filter: none; } }
-.tour-order-track { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; position: relative; margin: auto 0 20px; }
-.tour-order-track::before { content: ''; position: absolute; top: -12px; left: 5px; right: 5px; height: 2px; background: #70a4a8; }
-.tour-order-track span { position: relative; color: #456b6e; font: 700 11px ui-monospace, SFMono-Regular, Menlo, monospace; line-height: 1.5; }
-.tour-order-track span::before { content: ''; width: 8px; height: 8px; position: absolute; top: -15px; left: 0; border-radius: 50%; background: #2f838b; }
-.tour-order-track span:nth-child(2)::before { background: #a56a2c; }
-.tour-order-track b { color: #173e44; font: 700 12px 'DM Sans', sans-serif; }
-.tour-order-foot { padding: 10px 0 0; border-top: 1px solid #b2d0d2; color: #365f63; font-size: 12px; }
-.tour-controls { display: flex; gap: 18px; align-items: center; margin-top: 18px; }
-.tour-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); flex: 1; gap: 8px; }
-.tour-step { position: relative; min-width: 0; min-height: 58px; padding: 13px 8px 10px; border: 0; border-top: 2px solid #82b6bb; background: transparent; color: #41676a; text-align: left; font-weight: 700; }
-.tour-step span { margin-right: 10px; font: 700 11px ui-monospace, SFMono-Regular, Menlo, monospace; }
-.tour-step[aria-pressed="true"] { color: #153e43; border-top-color: #286c73; }
-.tour-step::after { content: ''; position: absolute; left: 0; top: -2px; width: 100%; height: 2px; background: #286c73; transform: scaleX(0); transform-origin: left; }
-.tour-step[aria-pressed="true"]::after { transform: scaleX(1); }
-.quick-tour.is-playing .tour-step[aria-pressed="true"]::after { animation: tour-progress 3.3s linear both; }
-@keyframes tour-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-.tour-toggle { min-width: 92px; min-height: 44px; border: 1px solid #79abb1; border-radius: 99px; padding: 8px 18px; background: #e8f7f8; color: #17474c; font-weight: 700; }
-.tour-toggle:hover { background: #fff; }
-.tour-disclosure { margin-top: 8px; color: #3f666b; font-size: 12px; }
-@media (max-width: 760px) {
-  #home .hero { padding: 30px var(--gutter) 20px; }
-  #home .hero h1 { font-size: clamp(47px, 9vw, 64px); }
-  .quick-tour { padding-inline: var(--gutter); padding-bottom: 58px; }
-  .tour-rail { align-items: flex-start; flex-direction: column; gap: 2px; }
-  .tour-product-head { padding: 12px 16px; gap: 10px; }
-  .tour-product-head small { font-size: 11px; text-align: right; }
-  .tour-stage { grid-template-columns: 1fr; gap: 18px; padding: 20px; min-height: 0; }
-  .tour-stage-area { min-height: 0; }
-  .tour-copy { padding: 0; }
-  .tour-count { margin-bottom: 8px; }
-  .tour-copy h2 { font-size: 32px; margin-bottom: 8px; }
-  .tour-copy p { font-size: 14px; margin-bottom: 16px; }
-  .tour-file-list, .tour-facts, .tour-context { margin-top: 0; }
-  .tour-visual { min-height: 210px; padding: 15px; }
-  .tour-visual-top { margin-bottom: 10px; font-size: 11px; }
-  .tour-chart svg text { display: none; }
-  .tour-chart-note { display: flex; justify-content: space-between; gap: 14px; color: #365f63; font-size: 11px; font-weight: 700; }
-  .tour-sheet-row { padding: 7px 9px; font-size: 11px; }
-  .tour-sheet-head { padding: 8px 9px; font-size: 11px; }
-  .tour-sheet-footer { padding-top: 9px; }
-  .tour-order-number { margin-bottom: 16px; }
-  .tour-order-number strong { font-size: 76px; }
-  .tour-step { font-size: 12px; }
-  .tour-step span { display: block; margin-bottom: 3px; }
-}
-@media (max-width: 440px) {
-  #home .hero .actions .btn { width: 100%; }
-  #home .hero .actions .btn.secondary { width: auto; min-height: 36px; padding: 4px 0; border: 0; background: transparent; }
-  .tour-browser { padding-inline: 12px; grid-template-columns: 1fr auto 1fr; font-size: 11px; }
-  .tour-product-head > span { display: none; }
-  .tour-stage { padding: 16px; }
-  .tour-copy h2 { font-size: 29px; }
-  .tour-visual { min-height: 195px; }
-  .tour-controls { gap: 7px; flex-wrap: wrap; }
-  .tour-steps { flex-basis: 100%; }
-  .tour-toggle { margin-left: auto; }
-}
-@media (max-width: 360px) {
-  .tour-order-number { flex-direction: column; align-items: flex-start; gap: 0; }
-  .tour-order-number strong { font-size: 68px; }
-  .tour-order-number span { font-size: 14px; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .tour-stage.is-active, .tour-stage.is-active .tour-file, .tour-stage.is-active .tour-sheet-row, .tour-stage.is-active .tour-chart-line, .tour-stage.is-active .tour-chart-dot, .tour-stage.is-active .tour-order-number, .quick-tour.is-playing .tour-step[aria-pressed="true"]::after { animation: none; }
-  .tour-stage.is-active .tour-chart-line { stroke-dashoffset: 0; }
-  .tour-stage.is-active .tour-chart-dot { opacity: 1; }
-}
+/* A staged walkthrough of the actual PULSE flow. */
+#home .hero{grid-template-columns:1fr;min-height:0;padding:44px var(--gutter) 30px;text-align:center}
+#home .hero-copy{max-width:920px;margin:auto}#home .hero h1{max-width:none;margin-bottom:20px;font-size:clamp(56px,6.6vw,88px)}#home .hero .lead{max-width:58ch;margin-inline:auto}#home .hero .actions{justify-content:center}#home .hero .btn.secondary{background:#f4fbfc}
+.quick-tour{background:var(--ice);padding:0 var(--gutter) 74px}.tour-rail,.tour-controls,.tour-disclosure{max-width:1200px;margin-inline:auto}.tour-rail{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:0 4px 14px;color:#2e5b62;font-size:13px}.tour-rail strong{color:#173e43;font-size:15px}
+.tour-window{position:relative;max-width:1200px;height:560px;margin:auto;background:#f7faf9;border:1px solid #9ac8cd;border-radius:16px;overflow:hidden;box-shadow:0 14px 26px #25565d1a;user-select:none;-webkit-user-select:none}
+.tour-browser{height:40px;display:grid;grid-template-columns:1fr 1fr 1fr;align-items:center;padding:8px 18px;border-bottom:1px solid #d9e7e7;color:#667e7d;font:600 11px ui-monospace,SFMono-Regular,Menlo,monospace}.tour-browser>:nth-child(2){text-align:center;white-space:nowrap}.tour-browser-status{justify-self:end;color:#286c73;letter-spacing:.12em}.tour-browser-dots{display:flex;gap:5px}.tour-browser-dots i{width:7px;height:7px;background:#b4c9c9;border-radius:50%}
+.tour-site-nav{height:58px;display:flex;align-items:center;justify-content:space-between;padding:0 28px;border-bottom:1px solid #d9e7e7;background:#f1f8f9;color:#536b6d;font-size:13px}.tour-site-nav strong{color:#101b19;font:800 21px Manrope,sans-serif;letter-spacing:-.04em}.tour-site-nav strong i{color:#278995;font-style:normal}.tour-site-nav span{display:flex;gap:24px}.tour-site-nav b{color:#1b545b}.tour-viewport{height:calc(100% - 98px);position:relative;overflow:hidden}.tour-scene{position:absolute;inset:0;display:none;padding:38px 52px;background:#f2f8f9;color:#142421}.tour-scene[aria-hidden="false"]{display:block;animation:tour-page .3s ease-out both}@keyframes tour-page{from{opacity:.6;transform:translateY(8px)}to{opacity:1;transform:none}}
+.tour-scene h2{font:700 clamp(30px,4vw,52px)/1.05 Manrope,sans-serif;letter-spacing:-.035em;margin:0 0 14px}.tour-scene p{color:#526b69;line-height:1.5;margin:0}.tour-kicker{display:block;color:#39777c;font:700 11px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.1em;text-transform:uppercase;margin-bottom:20px}.tour-action{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:10px 18px;border-radius:99px;background:#10211e;color:white!important;font-size:13px;font-weight:700;white-space:nowrap}
+.tour-landing{display:grid!important;grid-template-columns:1fr 1fr;gap:32px;align-items:center}.tour-landing[aria-hidden="true"]{display:none!important}.tour-landing h2{font-size:clamp(42px,5vw,70px)}.tour-landing p{max-width:38ch;margin-bottom:26px}.tour-landing-art{height:300px;border-radius:18px;background:#cfedf4;display:flex;align-items:center;justify-content:center}.tour-landing-art svg{width:70%;max-height:250px}
+.tour-signup{background:#e9f4f5}.tour-signup-layout{height:100%;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.tour-signup h2{font-size:clamp(38px,4vw,57px)}.tour-signup-card{background:#fff;border:1px solid #d6e4e3;border-radius:14px;padding:24px 28px;box-shadow:0 10px 24px #244d5114}.tour-signup-card h3{font-size:21px;margin:0 0 18px}.tour-field{display:block;margin:12px 0 0;font-size:12px;font-weight:700;color:#3e5b59}.tour-input{height:40px;border:1px solid #b9cfce;border-radius:6px;padding:10px 12px;margin-top:6px;background:#fbfdfd;color:#142421;font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden}.tour-signup-card .tour-action{width:100%;margin-top:18px}.tour-fine{font-size:11px;margin-top:12px!important}
+.tour-workspace{background:#f2f8f9}.tour-workspace h2{font-size:36px}.tour-workspace>p{font-size:14px}.tour-uploads{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:26px 0 20px}.tour-upload{min-height:152px;border:1px dashed #9ebdbd;border-radius:11px;padding:19px;background:white}.tour-upload h3{font-size:18px;margin:0 0 7px}.tour-upload p{font-size:12px;min-height:34px}.tour-upload .tour-action{background:#eff7f7;color:#152b29!important;border:1px solid #9dbebd;margin-top:13px}.tour-file-name{display:block;margin-top:7px;font-size:11px;color:#286e74;min-height:16px}.tour-train{display:flex;align-items:center;gap:18px}.tour-train small{color:#4b706c}.tour-progress-track{width:min(420px,100%);height:8px;border-radius:10px;background:#d3e4e3;overflow:hidden;margin-top:16px}.tour-progress-track span{display:block;width:0;height:100%;background:#297e85;transition:width .1s linear}
+.tour-plan{background:#f2f8f9}.tour-plan{padding-top:26px;padding-bottom:20px}.tour-plan h2{font-size:34px}.tour-plan-intro{display:flex;justify-content:space-between;align-items:end}.tour-plan-intro p{font-size:13px}.tour-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0}.tour-metrics div{padding:10px;background:#e0eff0;border-radius:8px;font-size:12px;color:#3f6666}.tour-metrics strong{display:block;color:#173f43;font:800 24px Manrope,sans-serif}.tour-plan-table{border:1px solid #d2e2e1;border-radius:10px;overflow:hidden;background:white}.tour-plan-row{display:grid;grid-template-columns:1.4fr 1fr 1fr .8fr;gap:10px;padding:7px 18px;border-top:1px solid #e1ebea;font-size:13px;align-items:center}.tour-plan-row:first-child{background:#d9eaea;border:0;color:#416b6a;font-size:11px;font-weight:700}.tour-plan-row b{color:#173f43}.tour-plan-row .tour-order-tag{color:#935f2a;background:#f7eee4;border-radius:99px;padding:6px 10px;width:max-content}.tour-plan-detail{display:flex;gap:16px;align-items:center;margin-top:8px;padding:8px;background:#dceced;border-radius:9px;color:#2e5f63;font-size:13px}.tour-plan-detail strong{font-size:30px;color:#173f43}
+.tour-cursor{position:absolute;left:var(--cursor-x,12%);top:var(--cursor-y,25%);z-index:4;transition:left .48s cubic-bezier(.2,.75,.2,1),top .48s cubic-bezier(.2,.75,.2,1);pointer-events:none;filter:drop-shadow(0 2px 2px #0005)}.tour-cursor svg{width:27px;height:34px;display:block}.tour-cursor.is-clicking svg{transform:scale(.8)}.tour-cursor::after{content:'';position:absolute;left:7px;top:7px;width:10px;height:10px;border:2px solid #2b8790;border-radius:50%;opacity:0}.tour-cursor.is-clicking::after{animation:tour-click .4s ease-out}@keyframes tour-click{from{opacity:.8;transform:scale(.5)}to{opacity:0;transform:scale(2.8)}}
+.tour-controls{display:flex;gap:18px;align-items:center;margin-top:18px}.tour-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));flex:1;gap:8px}.tour-step{position:relative;min-width:0;min-height:56px;padding:12px 8px 10px;border:0;border-top:2px solid #82b6bb;background:transparent;color:#41676a;text-align:left;font-weight:700}.tour-step span{margin-right:10px;font:700 11px ui-monospace,SFMono-Regular,Menlo,monospace}.tour-step[aria-pressed="true"]{color:#153e43;border-top-color:#286c73}.tour-step::after{content:'';position:absolute;left:0;top:-2px;width:100%;height:2px;background:#286c73;transform:scaleX(0);transform-origin:left}.quick-tour.is-playing .tour-step[aria-pressed="true"]::after{transform:scaleX(var(--step-progress,0))}.tour-toggle{min-width:92px;min-height:44px;border:1px solid #79abb1;border-radius:99px;padding:8px 18px;background:#e8f7f8;color:#17474c;font-weight:700}.tour-toggle:hover{background:#fff}.tour-disclosure{margin-top:8px;color:#3f666b;font-size:12px}
+@media(max-width:760px){#home .hero{padding:30px var(--gutter) 20px}#home .hero h1{font-size:clamp(47px,9vw,64px)}.quick-tour{padding-bottom:58px}.tour-rail{align-items:flex-start;flex-direction:column;gap:2px}.tour-window{height:570px}.tour-scene{padding:24px}.tour-site-nav{padding:0 16px}.tour-site-nav span{gap:10px;font-size:11px}.tour-landing{grid-template-columns:1fr;gap:12px;align-content:center}.tour-landing h2{font-size:46px}.tour-landing-art{height:150px}.tour-signup-layout{grid-template-columns:1fr;gap:12px;align-content:start}.tour-signup-layout>div:first-child{display:none}.tour-signup-card{max-width:450px;margin:auto;width:100%}.tour-uploads{gap:8px}.tour-upload{padding:12px}.tour-upload h3{font-size:14px}.tour-upload p{font-size:11px}.tour-workspace h2,.tour-plan h2{font-size:30px}.tour-metrics strong{font-size:23px}.tour-plan-row{font-size:11px;padding:10px}.tour-plan .tour-plan-row:nth-child(3){display:none}.tour-plan-intro p{display:none}.tour-plan .tour-metrics div:nth-child(n+2){display:none}.tour-plan .tour-metrics{grid-template-columns:1fr}.tour-plan .tour-metrics div{display:flex;align-items:center;justify-content:space-between;padding:8px 10px}.tour-plan .tour-metrics strong{font-size:18px}.tour-plan-detail{display:block;font-size:11px;line-height:1.35}.tour-plan-detail strong{font-size:16px;margin-right:5px}.tour-controls{gap:8px;flex-wrap:wrap}.tour-steps{flex-basis:100%}.tour-step{font-size:11px}.tour-step span{display:block;margin-bottom:3px}.tour-toggle{margin-left:auto}}
+@media(max-width:430px){#home .hero .actions .btn{width:100%}#home .hero .actions .btn.secondary{width:auto;min-height:36px;padding:4px 0;border:0;background:transparent}.tour-window{height:535px}.tour-browser{padding-inline:12px}.tour-browser>:nth-child(2){font-size:9px}.tour-site-nav span span:nth-child(2){display:none}.tour-scene{padding:19px}.tour-landing h2{font-size:40px}.tour-landing-art{height:140px}.tour-uploads{margin:16px 0}.tour-upload{min-height:150px}.tour-upload .tour-action{font-size:10px;padding:8px}.tour-plan-row{grid-template-columns:1.4fr .7fr .7fr .8fr;gap:4px;padding:9px 6px}.tour-metrics{gap:5px}.tour-metrics div{padding:9px;font-size:10px}.tour-metrics strong{font-size:19px}.tour-plan-detail{margin-top:10px;padding:10px}.tour-plan-detail strong{font-size:24px}}
+@media(prefers-reduced-motion:reduce){.tour-scene{animation:none}.tour-cursor,.tour-progress-track span{transition:none}.tour-cursor.is-clicking::after{animation:none}}
 </style>
 </head>
 <body><div class="frame"><header class="top"><div class="nav-motion"><a class="brand" href="#home" data-screen="home" aria-label="PULSE home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a6.364 6.364 0 0 0-9-9l-10 10a6.364 6.364 0 0 0 9 9Z"/><path d="m8.5 8.5 7 7"/></svg></span>PULSE<i></i></a><button class="nav-back" id="nav-back" type="button" aria-label="Go back" disabled><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button><nav class="nav" aria-label="Prototype pages"><span class="nav-indicator" aria-hidden="true"></span><button class="active" data-screen="home">Home</button><button data-screen="workspace">Workspace</button><button data-screen="api">API guide</button><button data-screen="docs">API docs</button><button data-screen="access">Sign in</button></nav><button class="nav-next" id="nav-next" type="button"><span class="nav-next-copy"><small id="nav-next-caption">Next</small><span id="nav-next-label">Workspace</span></span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button></div></header><nav class="workspace-nav" id="workspace-nav" aria-label="Workspace pages" hidden><button data-screen="workspace">Build a plan</button><button data-screen="demo">Sample plan</button><button data-screen="signals">Public signals</button></nav>
 <main>
-<section class="screen active" id="home"><div class="hero"><div class="hero-copy"><p class="eyebrow">A calmer way to plan replenishment</p><h1>Local care.<br><span>A clearer plan.</span></h1><p class="lead">Turn your sales and inventory history into a focused 14-day plan—so you can see which medicines may need attention, and when.</p><div class="actions"><a class="btn" href="#quick-tour">Watch the 10-second tour ↓</a><button class="btn secondary" data-go="workspace">Open workspace ↗</button></div></div></div>
-<div class="quick-tour" id="quick-tour" aria-label="PULSE three-step product preview">
-  <div class="tour-rail"><strong>PULSE in 10 seconds</strong><span>Two files · shortage timing · order guidance</span></div>
+<section class="screen active" id="home"><div class="hero"><div class="hero-copy"><p class="eyebrow">A calmer way to plan replenishment</p><h1>Local care.<br><span>A clearer plan.</span></h1><p class="lead">Turn your sales and inventory history into a focused 14-day plan—so you can see which medicines may need attention, and when.</p><div class="actions"><a class="btn" href="#quick-tour">Watch the 14-second tour ↓</a><button class="btn secondary" data-go="workspace">Open workspace ↗</button></div></div></div>
+<div class="quick-tour" id="quick-tour" aria-label="Fourteen-second PULSE website walkthrough">
+  <div class="tour-rail"><strong>See PULSE in 14 seconds</strong><span>Sign up · select files · review a sample plan</span></div>
   <div class="tour-window">
-    <div class="tour-browser"><span class="tour-browser-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>pulse / sample plan</span><span class="tour-browser-status">PREVIEW</span></div>
-    <div class="tour-product-head"><strong>PULSE<span aria-hidden="true">•</span></strong><span>Demand &amp; inventory</span><small>Oct 11, 2026 sample</small></div>
-    <div class="tour-stage-area" aria-live="off">
-      <section class="tour-stage is-active" data-tour-stage="0" aria-label="Step 1: Add files">
-        <div class="tour-copy"><span class="tour-count">01 / INPUT</span><h2>Two files.<br>One clear view.</h2><p>Start with daily sales and current inventory. Your own files stay in your browser.</p><div class="tour-file-list"><div class="tour-file"><b>CSV</b><span>Daily sales history<small>Date · medication · units sold</small></span><i aria-hidden="true">✓</i></div><div class="tour-file"><b>CSV</b><span>Current inventory<small>Medication · on-hand units</small></span><i aria-hidden="true">✓</i></div></div></div>
-        <div class="tour-visual tour-sheet" aria-hidden="true"><div class="tour-visual-top"><span>SALES HISTORY</span><span>4 MEDICATIONS</span></div><div class="tour-sheet-head"><span>DATE</span><span>MEDICATION</span><span>UNITS</span></div><div class="tour-sheet-row"><span>OCT 12</span><span>Amoxicillin</span><strong>16</strong></div><div class="tour-sheet-row"><span>OCT 13</span><span>Amoxicillin</span><strong>15</strong></div><div class="tour-sheet-row"><span>OCT 14</span><span>Amoxicillin</span><strong>17</strong></div><div class="tour-sheet-row"><span>OCT 15</span><span>Amoxicillin</span><strong>18</strong></div><div class="tour-sheet-footer"><span class="tour-pulse-dot"></span>Ready for a 14-day plan</div></div>
-      </section>
-      <section class="tour-stage" data-tour-stage="1" aria-label="Step 2: See the gap" hidden>
-        <div class="tour-copy"><span class="tour-count">02 / FORECAST</span><h2>See the gap<br>before it opens.</h2><p>For sample Amoxicillin, projected demand is 214 units over 14 days. Stock reaches zero on Oct 20, before the delivery counts.</p><div class="tour-facts"><div><strong>132</strong><span>on hand</span></div><div><strong>214</strong><span>14-day demand</span></div></div></div>
-        <div class="tour-visual tour-chart"><div class="tour-visual-top"><span>AMOXICILLIN · 500 MG</span><span>UNITS LEFT</span></div><svg viewBox="0 0 560 250" role="img" aria-label="Sample stock falls from 132 units to zero on Oct 20, then rises after the delivery is counted Oct 22"><path class="tour-chart-grid" d="M44 54H530M44 126H530M44 198H530"/><text x="8" y="58">132</text><text x="20" y="202">0</text><path class="tour-chart-fill" d="M44 54 78 71 112 88 146 107 180 126 214 143 248 156 282 168 316 188 350 198 384 198 418 114 452 132 486 144 530 156V198H44Z"/><path class="tour-chart-line" d="M44 54 78 71 112 88 146 107 180 126 214 143 248 156 282 168 316 188 350 198 384 198 418 114 452 132 486 144 530 156"/><path class="tour-chart-marker" d="M350 36V202"/><circle class="tour-chart-dot" cx="350" cy="198" r="7"/><text class="tour-chart-callout" x="265" y="28">RUNS OUT OCT 20</text><text x="44" y="235">ON HAND</text><text x="415" y="235">DELIVERY COUNTED OCT 22</text></svg><div class="tour-chart-note"><span>Runs out Oct 20</span><span>Delivery counted Oct 22</span></div></div>
-      </section>
-      <section class="tour-stage" data-tour-stage="2" aria-label="Step 3: Review the order" hidden>
-        <div class="tour-copy"><span class="tour-count">03 / DECISION</span><h2>Know what<br>to review next.</h2><p>PULSE suggests 26 units for the sample gap. Check pack sizes and supplier timing before ordering.</p><div class="tour-context"><span class="tour-pulse-dot"></span>Public signals and related news sit alongside the plan.</div></div>
-        <div class="tour-visual tour-order"><div class="tour-visual-top"><span>AMOXICILLIN · 500 MG</span><span>ORDER REVIEW</span></div><div class="tour-order-number"><strong>26</strong><span>units suggested</span></div><div class="tour-order-track"><span>OCT 11<br><b>On hand</b></span><span>OCT 20<br><b>Stock gap</b></span><span>OCT 22<br><b>Delivery counted</b></span></div><div class="tour-order-foot">Review against pack sizes and supplier timing.</div></div>
-      </section>
+    <div class="tour-browser"><span class="tour-browser-dots" aria-hidden="true"><i></i><i></i><i></i></span><span id="tour-url">pulse / home</span><span class="tour-browser-status">ILLUSTRATIVE REPLAY</span></div>
+    <div class="tour-site-nav"><strong>PULSE<i>•</i></strong><span><span>Home</span><span>Workspace</span><b id="tour-nav-action">Sign up</b></span></div>
+    <div class="tour-viewport">
+      <section class="tour-scene tour-landing" data-tour-stage="0" aria-hidden="false"><div><span class="tour-kicker">A calmer way to plan replenishment</span><h2>Local care.<br>A clearer plan.</h2><p>Turn sales and inventory history into a focused 14-day plan.</p><span class="tour-action">Create a workspace ↗</span></div><div class="tour-landing-art" aria-hidden="true"><svg viewBox="0 0 330 240" fill="none"><path d="M20 170c27-47 44-38 70-65s63-77 119-58 91 80 99 128" stroke="#247783" stroke-width="3"/><path d="M20 176c33-44 57-34 85-63s61-58 111-42 68 65 94 88" stroke="#4f9ba4" stroke-width="2"/><path d="M20 184c29-31 69-21 96-49s69-42 103-28 62 31 89 48" stroke="#85bec5" stroke-width="2"/><circle cx="202" cy="70" r="8" fill="#f7fbfb" stroke="#267782" stroke-width="3"/><circle cx="115" cy="134" r="5" fill="#f7fbfb" stroke="#267782" stroke-width="2"/></svg></div></section>
+      <section class="tour-scene tour-signup" data-tour-stage="1" aria-hidden="true"><div class="tour-signup-layout"><div><span class="tour-kicker">Your workspace</span><h2>Make room<br>for clarity.</h2><p>Create an account to work with local files.</p></div><div class="tour-signup-card"><h3>Create your workspace.</h3><label class="tour-field">Email<div class="tour-input" id="tour-email"></div></label><label class="tour-field">Password<div class="tour-input" id="tour-password"></div></label><div class="tour-action">Create my workspace →</div><p class="tour-fine">Visual replay · no account is created.</p></div></div></section>
+      <section class="tour-scene tour-workspace" data-tour-stage="2" aria-hidden="true"><span class="tour-kicker">Your workspace</span><h2>Build your demand plan.</h2><p>Your files stay in this browser while PULSE trains your model.</p><div class="tour-uploads"><div class="tour-upload"><h3>Daily sales history</h3><p>CSV columns: date, medication name, units sold.</p><span class="tour-action">Choose sales CSV</span><span class="tour-file-name" id="tour-sales-name">No file selected</span></div><div class="tour-upload"><h3>Current inventory</h3><p>CSV columns: medication name and on-hand units.</p><span class="tour-action">Choose inventory CSV</span><span class="tour-file-name" id="tour-inventory-name">No file selected</span></div></div><div class="tour-train"><span class="tour-action">Train on this device</span><small id="tour-train-status">Ready when both files are selected.</small></div><div class="tour-progress-track" aria-hidden="true"><span id="tour-progress"></span></div></section>
+      <section class="tour-scene tour-plan" data-tour-stage="3" aria-hidden="true"><div class="tour-plan-intro"><div><span class="tour-kicker">Sample plan · Oct 11, 2026</span><h2>Demand &amp; inventory.</h2><p>A clearer plan for the medicines on your shelves.</p></div></div><div class="tour-metrics"><div>Medications in view<strong>4</strong></div><div>Need stock within 7 days<strong>1</strong></div><div>Planning window<strong>14 days</strong></div></div><div class="tour-plan-table"><div class="tour-plan-row"><span>MEDICATION</span><span>ON HAND</span><span>14D DEMAND</span><span>ORDER</span></div><div class="tour-plan-row"><b>Amoxicillin<br><small>500 mg · capsules</small></b><span>132</span><span>214</span><span class="tour-order-tag">26 units</span></div><div class="tour-plan-row"><b>Salbutamol<br><small>100 mcg · inhalers</small></b><span>15</span><span>38</span><span>21 units</span></div></div><div class="tour-plan-detail"><strong>Oct 20</strong><span>Amoxicillin runs out before its delivery is counted on Oct 22. Review 26 suggested units.</span></div></section>
+      <div class="tour-cursor" id="tour-cursor" aria-hidden="true"><svg viewBox="0 0 28 36" fill="none"><path d="M2 2v28l7-7 5 11 5-2-5-10h11L2 2Z" fill="#fff" stroke="#142421" stroke-width="2" stroke-linejoin="round"/></svg></div>
     </div>
   </div>
-  <div class="tour-controls"><div class="tour-steps" role="group" aria-label="Preview steps"><button class="tour-step" type="button" data-tour-step="0" aria-pressed="true"><span>01</span>Add files</button><button class="tour-step" type="button" data-tour-step="1" aria-pressed="false"><span>02</span>See the gap</button><button class="tour-step" type="button" data-tour-step="2" aria-pressed="false"><span>03</span>Review order</button></div><button class="tour-toggle" type="button" aria-label="Pause product preview">Pause</button></div>
-  <p class="tour-disclosure">Illustrative sample arithmetic. This preview does not train a model or place an order.</p>
+  <div class="tour-controls"><div class="tour-steps" role="group" aria-label="Walkthrough steps"><button class="tour-step" type="button" data-tour-step="0" aria-pressed="true"><span>01</span>Landing</button><button class="tour-step" type="button" data-tour-step="1" aria-pressed="false"><span>02</span>Sign up</button><button class="tour-step" type="button" data-tour-step="2" aria-pressed="false"><span>03</span>Add files</button><button class="tour-step" type="button" data-tour-step="3" aria-pressed="false"><span>04</span>Review plan</button></div><button class="tour-toggle" type="button" aria-label="Pause walkthrough">Pause</button></div>
+  <p class="tour-disclosure">Illustrative replay using sample data. No account is created, files uploaded, or model trained in this animation.</p>
 </div>
 <div class="band editorial-features"><div class="wrap"><p class="eyebrow muted">What PULSE does</p><h2>Answers you can act on,<br>without the noise.</h2><p class="muted">Daily sales and current stock become a concise view of demand, purchase needs, and the signals behind them.</p>
 <div class="feature-list editorial-grid">
@@ -509,29 +375,56 @@ document.addEventListener('click',event=>{const link=event.target.closest('a[hre
 new ResizeObserver(()=>document.documentElement.style.setProperty('--workspace-nav-height',(workspaceNav.hidden?0:workspaceNav.getBoundingClientRect().height)+'px')).observe(workspaceNav);
 
 
-// The preview advances only while visible; step buttons keep the sample readable at any pace.
+// A single clock keeps the cursor, typing, and page changes in sync; it stops offscreen.
 const tour = document.querySelector('#quick-tour');
 const tourStages = [...tour.querySelectorAll('[data-tour-stage]')];
 const tourSteps = [...tour.querySelectorAll('[data-tour-step]')];
 const tourToggle = tour.querySelector('.tour-toggle');
-let tourIndex = 0, tourPlaying = !matchMedia('(prefers-reduced-motion: reduce)').matches, tourVisible = false, tourTimer;
-function renderTour(index) {
-  tourIndex = index;
-  tourStages.forEach((stage, i) => { stage.hidden = i !== index; stage.classList.toggle('is-active', i === index); });
-  tourSteps.forEach((step, i) => step.setAttribute('aria-pressed', i === index));
+const tourCursor = tour.querySelector('#tour-cursor');
+const tourStops = [0, 2400, 5300, 9900, 14000];
+const cursorStops = [[0,0,14,22],[850,0,22,67],[1900,0,22,67],[2400,1,56,25],[2800,1,68,43],[4000,1,70,58],[4850,1,73,80],[5300,2,19,22],[5900,2,19,65],[7100,2,63,65],[8400,2,18,87],[9900,3,14,19],[11000,3,22,66],[12800,3,52,84]];
+const tourEmail = 'demo@pulse.example';
+let tourTime = 0, tourIndex = -1, tourPlaying = !matchMedia('(prefers-reduced-motion: reduce)').matches, tourVisible = false, lastTourFrame = 0, tourFrame;
+function renderTour() {
+  const index = Math.max(0, tourStops.findIndex((stop, i) => i < 4 && tourTime >= stop && tourTime < tourStops[i + 1]));
+  if (index !== tourIndex) {
+    tourIndex = index;
+    tourStages.forEach((stage, i) => stage.setAttribute('aria-hidden', String(i !== index)));
+    tourSteps.forEach((step, i) => step.setAttribute('aria-pressed', String(i === index)));
+    tour.querySelector('#tour-url').textContent = ['pulse / home','pulse / sign up','pulse / workspace','pulse / sample plan'][index];
+    tour.querySelector('#tour-nav-action').textContent = index ? 'Account' : 'Sign up';
+  }
+  tourSteps[index].style.setProperty('--step-progress', (tourTime - tourStops[index]) / (tourStops[index + 1] - tourStops[index]));
+  const cursor = [...cursorStops].reverse().find(stop => stop[0] <= tourTime && stop[1] === index) || cursorStops.find(stop => stop[1] === index);
+  tourCursor.style.setProperty('--cursor-x', cursor[2] + '%');
+  tourCursor.style.setProperty('--cursor-y', cursor[3] + '%');
+  tourCursor.classList.toggle('is-clicking', [1850,4750,5800,7000,8350,10800].some(t => Math.abs(tourTime - t) < 140));
+  tour.querySelector('#tour-email').textContent = index === 1 ? tourEmail.slice(0, Math.max(0, Math.floor((tourTime - 2850) / 65))) : '';
+  tour.querySelector('#tour-password').textContent = index === 1 ? '•'.repeat(Math.min(12, Math.max(0, Math.floor((tourTime - 4050) / 55)))) : '';
+  tour.querySelector('#tour-sales-name').textContent = tourTime >= 6500 && index === 2 ? 'sample_sales.csv ✓' : 'No file selected';
+  tour.querySelector('#tour-inventory-name').textContent = tourTime >= 7700 && index === 2 ? 'sample_inventory.csv ✓' : 'No file selected';
+  tour.querySelector('#tour-train-status').textContent = tourTime >= 8450 && index === 2 ? 'Generating a sample plan…' : 'Ready when both files are selected.';
+  tour.querySelector('#tour-progress').style.width = index === 2 ? Math.min(100, Math.max(0, (tourTime - 8500) / 13)) + '%' : '0%';
 }
-function scheduleTour() {
-  clearTimeout(tourTimer);
+function tourTick(now) {
+  if (lastTourFrame) tourTime = (tourTime + Math.min(now - lastTourFrame, 80)) % 14000;
+  lastTourFrame = now;
+  renderTour();
+  tourFrame = requestAnimationFrame(tourTick);
+}
+function syncTour() {
   const running = tourPlaying && tourVisible && !document.hidden && document.querySelector('#home').classList.contains('active');
+  cancelAnimationFrame(tourFrame);
+  lastTourFrame = 0;
   tour.classList.toggle('is-playing', running);
   tourToggle.textContent = tourPlaying ? 'Pause' : 'Play';
-  tourToggle.setAttribute('aria-label', tourPlaying ? 'Pause product preview' : 'Play product preview');
-  if (running) tourTimer = setTimeout(() => { renderTour((tourIndex + 1) % tourStages.length); scheduleTour(); }, 3300);
+  tourToggle.setAttribute('aria-label', tourPlaying ? 'Pause walkthrough' : 'Play walkthrough');
+  if (running) tourFrame = requestAnimationFrame(tourTick);
 }
-tourSteps.forEach((step, index) => step.addEventListener('click', () => { tourPlaying = false; renderTour(index); scheduleTour(); }));
-tourToggle.addEventListener('click', () => { tourPlaying = !tourPlaying; scheduleTour(); });
-new IntersectionObserver(([entry]) => { tourVisible = entry.isIntersecting; scheduleTour(); }, { threshold: .15 }).observe(tour);
-document.addEventListener('visibilitychange', scheduleTour);
-renderTour(0);
-scheduleTour();
+tourSteps.forEach((step, index) => step.addEventListener('click', () => { tourPlaying = false; tourTime = tourStops[index]; renderTour(); syncTour(); }));
+tourToggle.addEventListener('click', () => { tourPlaying = !tourPlaying; syncTour(); });
+new IntersectionObserver(([entry]) => { tourVisible = entry.isIntersecting; syncTour(); }, { threshold: .15 }).observe(tour);
+document.addEventListener('visibilitychange', syncTour);
+renderTour();
+syncTour();
 </script></body></html>
