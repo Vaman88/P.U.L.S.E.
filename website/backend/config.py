@@ -32,8 +32,8 @@ class Settings(BaseSettings):
 
     # CORS
     CORS_ORIGINS: list[str] = ["http://localhost:3000", "http://localhost:3141",
-                               "http://localhost:5173", "http://127.0.0.1:3141",
-                               "http://127.0.0.1:5173"]
+                               "http://localhost:5173", "http://localhost:4173", "http://127.0.0.1:3141",
+                               "http://127.0.0.1:5173", "http://127.0.0.1:4173"]
 
     # Model
     MODEL_PATH: str = "./ml/models"
