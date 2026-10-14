@@ -41,6 +41,24 @@ test('landing uses source sections and the sample demo remains interactive',asyn
   await expect(page.locator('.plan-table tbody tr')).toHaveCount(3)
 })
 
+test('demo stock marker can be dragged to inspect a day',async({page})=>{
+  await page.goto('/demo')
+  const chart=page.getByRole('slider',{name:'Projected stock day'})
+  await expect(chart).toHaveAttribute('aria-valuenow','11')
+  await chart.scrollIntoViewIfNeeded()
+  const box=(await chart.boundingBox())!
+  await page.mouse.move(box.x+box.width*(42+11/14*580)/650,box.y+box.height/2)
+  await page.mouse.down()
+  await page.mouse.move(box.x+box.width*(42+7/14*580)/650,box.y+box.height/2)
+  await expect(chart).toHaveAttribute('aria-valuenow','7')
+  await expect(page.getByText('Day 7 · 28 units')).toBeVisible()
+  await page.mouse.up()
+  await chart.focus()
+  await page.keyboard.press('ArrowRight')
+  await expect(chart).toHaveAttribute('aria-valuenow','8')
+  await expect(page.getByText('Day 8 · 11 units')).toBeVisible()
+})
+
 test('access retains cookie-session login, local unlock and server logout',async({page})=>{
   let signedIn=false
   const requests:string[]=[]

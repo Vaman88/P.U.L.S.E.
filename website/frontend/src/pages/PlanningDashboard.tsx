@@ -44,10 +44,30 @@ export default function PlanningDashboard({ demoOnly = false }: { demoOnly?: boo
 }
 
 function StockChart({ plan, horizon }: { plan:MedicinePlan; horizon:number }) {
+  const [scrubDay, setScrubDay] = useState(plan.creditedFromDay ?? 0)
+  const day = Math.min(scrubDay, horizon)
+  const dayLabel = Number(day.toFixed(1))
+  const lowerDay = Math.floor(day)
+  const lowerRemaining = lowerDay === 0 ? plan.onHand : plan.days[lowerDay - 1].remaining
+  const upperRemaining = plan.days[Math.min(lowerDay, horizon - 1)].remaining
+  const remaining = lowerRemaining + (upperRemaining - lowerRemaining) * (day - lowerDay)
+  const units = fmtUnits(Math.round(remaining))
   const points = [{day:0,remaining:plan.onHand}, ...plan.days.slice(0,horizon)]
   const max = Math.max(plan.onHand,...points.map(point => point.remaining),1)
   const x = (day:number) => 42 + day / horizon * 580
   const y = (units:number) => 210 - units / max * 175
   const line = points.map(point => `${x(point.day)},${y(point.remaining)}`).join(' ')
-  return <div className="plan-chart"><div className="chart-legend"><span><i />Projected stock</span><span className="chart-delivery-key"><i />Dated delivery</span></div><svg viewBox="0 0 650 265" role="img" aria-label={`${plan.name} sample stock projection over ${horizon} days: ${plan.onHand} units initially and ${points[points.length - 1].remaining} at the end.`}>{[0,.5,1].map(value => <g key={value}><line x1="42" x2="622" y1={y(value*max)} y2={y(value*max)} className="chart-grid" /><text x="32" y={y(value*max)+4} textAnchor="end">{Math.round(value*max)}</text></g>)}<polygon points={`42,210 ${line} ${x(horizon)},210`} className="chart-fill" /><polyline points={line} className="chart-line" />{plan.creditedFromDay && plan.creditedFromDay <= horizon && <g><line x1={x(plan.creditedFromDay)} x2={x(plan.creditedFromDay)} y1="28" y2="210" className="chart-delivery" /><text x={x(plan.creditedFromDay)-5} y="20" textAnchor="end">Delivery counted</text></g>}{[0,Math.ceil(horizon/2),horizon].filter((d,i,a)=>a.indexOf(d)===i).map(day => <text key={day} x={x(day)} y="237" textAnchor="middle">{day === 0 ? 'On hand' : `Day ${day}`}</text>)}</svg><p className="chart-caption">Units remaining · {fmtShort(PLAN_AS_OF)} sample inventory</p></div>
+  function setDayFromPointer(clientX: number, svg: SVGSVGElement) {
+    const rect = svg.getBoundingClientRect()
+    setScrubDay(Math.max(0, Math.min(horizon, ((clientX - rect.left) * 650 / rect.width - 42) * horizon / 580)))
+  }
+  const markerX = x(day)
+  const labelX = Math.max(120, Math.min(markerX, 544))
+  return <div className="plan-chart"><div className="chart-legend"><span><i />Projected stock</span><span className="chart-delivery-key"><i />Dated delivery</span></div><svg viewBox="0 0 650 265" role="slider" tabIndex={0} aria-label="Projected stock day" aria-valuemin={0} aria-valuemax={horizon} aria-valuenow={dayLabel} aria-valuetext={`${dayLabel === 0 ? 'On hand' : `Day ${dayLabel}`}: ${units} units remaining`} onPointerDown={event => { event.preventDefault(); event.currentTarget.setPointerCapture(event.pointerId); setDayFromPointer(event.clientX, event.currentTarget) }} onPointerMove={event => { if (event.currentTarget.hasPointerCapture(event.pointerId)) setDayFromPointer(event.clientX, event.currentTarget) }} onPointerUp={event => event.currentTarget.releasePointerCapture(event.pointerId)} onKeyDown={event => { if (event.key === 'ArrowLeft') { event.preventDefault(); setScrubDay(Math.max(0, day - 1)) } else if (event.key === 'ArrowRight') { event.preventDefault(); setScrubDay(Math.min(horizon, day + 1)) } else if (event.key === 'Home') { event.preventDefault(); setScrubDay(0) } else if (event.key === 'End') { event.preventDefault(); setScrubDay(horizon) } }}>
+    {[0,.5,1].map(value => <g key={value}><line x1="42" x2="622" y1={y(value*max)} y2={y(value*max)} className="chart-grid" /><text x="32" y={y(value*max)+4} textAnchor="end">{Math.round(value*max)}</text></g>)}
+    <polygon points={`42,210 ${line} ${x(horizon)},210`} className="chart-fill" /><polyline points={line} className="chart-line" />
+    {plan.creditedFromDay && plan.creditedFromDay <= horizon && <g><line x1={x(plan.creditedFromDay)} x2={x(plan.creditedFromDay)} y1="28" y2="210" className="chart-delivery" /><text x={x(plan.creditedFromDay)-5} y="20" textAnchor="end">Delivery counted</text></g>}
+    <g className="chart-scrub"><line x1={markerX} x2={markerX} y1="64" y2="210" /><circle cx={markerX} cy={y(remaining)} r="5" /><rect x={labelX-78} y="35" width="156" height="25" rx="12" /><text x={labelX} y="52" textAnchor="middle">{dayLabel === 0 ? 'On hand' : `Day ${dayLabel}`} · {units} units</text></g>
+    {[0,Math.ceil(horizon/2),horizon].filter((d,i,a)=>a.indexOf(d)===i).map(day => <text key={day} x={x(day)} y="237" textAnchor="middle">{day === 0 ? 'On hand' : `Day ${day}`}</text>)}
+  </svg><p className="chart-caption"><strong>{dayLabel === 0 ? 'On hand' : `Day ${dayLabel}`}: {units} units remaining</strong><span>Drag the marker or use arrow keys · {fmtShort(PLAN_AS_OF)} sample inventory</span></p></div>
 }
