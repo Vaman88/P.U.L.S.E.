@@ -8,6 +8,7 @@ const PlanningDemo = lazy(() => import('./pages/PlanningDashboard'))
 const Dashboard = lazy(() => import('./pages/Dashboard'))
 const SignalsPage = lazy(() => import('./pages/SignalsPage'))
 const ApiGuide = lazy(() => import('./pages/ApiGuide'))
+const LegalPage = lazy(() => import('./pages/LegalPage'))
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<AccessPage mode="login" />} />
           <Route path="/signup" element={<AccessPage mode="signup" />} />
+          <Route path="/privacy" element={<LegalPage kind="privacy" />} />
+          <Route path="/terms" element={<LegalPage kind="terms" />} />
           <Route element={<Layout />}>
             <Route path="/demo" element={<PlanningDemo demoOnly />} />
             <Route path="/dashboard" element={<Dashboard />} />

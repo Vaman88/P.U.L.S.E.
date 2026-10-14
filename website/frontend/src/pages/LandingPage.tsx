@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, ArrowUpRight } from 'lucide-react'
 import PublicHeader from '../components/PublicHeader'
+import PublicFooter from '../components/PublicFooter'
 import PharmacyScene from '../components/PharmacyScene'
 import usePublicReveals from '../hooks/usePublicReveals'
 import '../public.css'
@@ -87,6 +88,6 @@ export default function LandingPage() {
         <p className="source-label">Ready when you are</p><h2>Make the next replenishment decision a little clearer.</h2><p>Start a private workspace, select your history, and see what may need attention over the next 14 days.</p><Link to="/signup" className="pulse-button">Create a workspace <ArrowRight size={18} /></Link>
       </section>
     </main>
-    <footer className="pulse-footer pulse-container"><Link to="/" className="pulse-wordmark">PULSE</Link><p>Pharmacy demand planning · Research demo</p></footer>
+    <PublicFooter />
   </div>
 }

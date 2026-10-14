@@ -22,19 +22,35 @@ test('all six illustrations animate when scrolled into view', async ({ page }) =
   expect(await cards.nth(3).locator('.card-art svg > rect:last-of-type').evaluate(shape => getComputedStyle(shape).opacity)).toBe('0.6')
 })
 
-test('a visible graph redraws, then stops cycling offscreen', async ({ page }) => {
+test('line markers move continuously and pause offscreen', async ({ page }) => {
   await page.goto(prototypeUrl)
-  const shape = page.locator('#home .editorial-features .editorial-card:first-child .card-art svg > path:nth-of-type(2)')
-  await shape.evaluate(element => {
-    element.dataset.starts = '0'
-    element.addEventListener('animationstart', () => { element.dataset.starts = String(Number(element.dataset.starts) + 1) })
-  })
-  await shape.scrollIntoViewIfNeeded()
-  await expect.poll(async () => Number(await shape.getAttribute('data-starts')), { timeout: 7000 }).toBeGreaterThanOrEqual(2)
+  await expect(page.locator('#home .graph-travel')).toHaveCount(4)
+  const chart = page.locator('#home .editorial-features .editorial-card:first-child')
+  await chart.scrollIntoViewIfNeeded()
+  await expect(chart).toHaveClass(/is-in-view/)
+  const svg = chart.locator('.card-art svg')
+  const before = await svg.evaluate(element => element.getCurrentTime())
+  await page.waitForTimeout(500)
+  const after = await svg.evaluate(element => element.getCurrentTime())
+  expect(after - before).toBeGreaterThan(.3)
   await page.locator('#home .faq-section').scrollIntoViewIfNeeded()
-  const starts = Number(await shape.getAttribute('data-starts'))
-  await page.waitForTimeout(5000)
-  expect(Number(await shape.getAttribute('data-starts'))).toBe(starts)
+  await expect(chart).not.toHaveClass(/is-in-view/)
+  expect(await svg.evaluate(element => element.animationsPaused())).toBe(true)
+  const paused = await svg.evaluate(element => element.getCurrentTime())
+  await page.waitForTimeout(500)
+  expect(await svg.evaluate(element => element.getCurrentTime())).toBeCloseTo(paused, 1)
+})
+
+test('table cells and inventory bars keep highlighting in view', async ({ page }) => {
+  await page.goto(prototypeUrl)
+  for (const index of [0, 1]) {
+    const card = page.locator('#home .editorial-workflow .editorial-card').nth(index)
+    await card.scrollIntoViewIfNeeded()
+    await expect(card).toHaveClass(/is-in-view/)
+    const shape = card.locator('.card-art svg g rect').first()
+    expect(await shape.evaluate(element => getComputedStyle(element).animationName)).toContain('graph-focus')
+    expect(await shape.evaluate(element => getComputedStyle(element).animationIterationCount)).toContain('infinite')
+  }
 })
 
 test('reduced motion leaves all six illustrations visible', async ({ page }) => {
@@ -43,6 +59,7 @@ test('reduced motion leaves all six illustrations visible', async ({ page }) => 
   const cards = page.locator('#home .editorial-grid .editorial-card')
   await expect(cards).toHaveCount(6)
   expect(await page.evaluate(() => document.documentElement.classList.contains('has-graph-motion'))).toBe(false)
+  await expect(page.locator('#home .graph-travel')).toHaveCount(0)
   for (let index = 0; index < 6; index++) {
     const svg = cards.nth(index).locator('.card-art svg')
     await expect(svg).toBeVisible()
