@@ -267,6 +267,46 @@ html { scroll-behavior: smooth; }
 .card-art svg { width: 100%; height: 100%; display: block; }
 .card-art svg text { font: 700 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #175964; letter-spacing: .06em; }
 .card-art .art-rule { stroke: #5a9da3; stroke-width: 1; stroke-dasharray: 3 6; opacity: .6; }
+/* Each illustration reveals the data it represents once it enters view. */
+html.has-graph-motion .editorial-grid .card-art svg > path:not(.art-rule)[fill="none"] { stroke-dasharray: 600; stroke-dashoffset: 600; }
+html.has-graph-motion .editorial-grid .is-animated .card-art svg > path:not(.art-rule)[fill="none"] { animation: graph-trace 1.15s cubic-bezier(.16,1,.3,1) forwards; }
+html.has-graph-motion .editorial-features .editorial-card:first-child .card-art svg > path:nth-of-type(2) { opacity: 0; }
+html.has-graph-motion .editorial-features .editorial-card:first-child.is-animated .card-art svg > path:nth-of-type(2) { animation: graph-area .9s ease-out .3s forwards; }
+html.has-graph-motion .editorial-features .editorial-card:nth-child(2).is-animated .card-art svg > path:nth-of-type(3),
+html.has-graph-motion .editorial-workflow .editorial-card:nth-child(3).is-animated .card-art svg > path:nth-of-type(3) { animation-delay: .65s; animation-duration: .6s; }
+html.has-graph-motion .editorial-features .editorial-card:nth-child(2) .card-art svg > path:nth-of-type(4),
+html.has-graph-motion .editorial-workflow .editorial-card:nth-child(3) .card-art svg > path:nth-of-type(4) { opacity: 0; }
+html.has-graph-motion .editorial-features .editorial-card:nth-child(2).is-animated .card-art svg > path:nth-of-type(4),
+html.has-graph-motion .editorial-workflow .editorial-card:nth-child(3).is-animated .card-art svg > path:nth-of-type(4) { animation: graph-fill .35s ease-out .85s forwards; }
+html.has-graph-motion .editorial-features .card-art svg circle { opacity: 0; transform: scale(.4); transform-box: fill-box; transform-origin: center; }
+html.has-graph-motion .editorial-features .is-animated .card-art svg circle { animation: graph-point .45s cubic-bezier(.16,1,.3,1) calc(.5s + var(--graph-index,0) * .17s) forwards; }
+html.has-graph-motion .editorial-features .editorial-card:nth-child(3).is-animated .card-art svg > path:nth-of-type(3) { animation-delay: .25s; }
+html.has-graph-motion .editorial-workflow .editorial-card:first-child .card-art svg g rect,
+html.has-graph-motion .editorial-workflow .editorial-card:first-child .card-art svg > rect:last-of-type { opacity: 0; }
+html.has-graph-motion .editorial-workflow .editorial-card:first-child.is-animated .card-art svg g rect { animation: graph-fill .3s ease-out calc(.16s + var(--graph-index,0) * .065s) forwards; }
+html.has-graph-motion .editorial-workflow .editorial-card:first-child.is-animated .card-art svg > rect:last-of-type { animation: graph-highlight .35s ease-out 1.05s forwards; }
+html.has-graph-motion .editorial-workflow .editorial-card:nth-child(2) .card-art svg g rect { transform: scaleY(.04); transform-box: fill-box; transform-origin: bottom; }
+html.has-graph-motion .editorial-workflow .editorial-card:nth-child(2).is-animated .card-art svg g rect { animation: graph-bar .75s cubic-bezier(.16,1,.3,1) calc(.1s + var(--graph-index,0) * .12s) forwards; }
+html.has-graph-motion .editorial-workflow .editorial-card:nth-child(3) .card-art svg > rect:last-of-type,
+html.has-graph-motion .editorial-workflow .editorial-card:nth-child(3) .card-art svg > text:nth-of-type(2) { opacity: 0; }
+html.has-graph-motion .editorial-workflow .editorial-card:nth-child(3).is-animated .card-art svg > rect:last-of-type,
+html.has-graph-motion .editorial-workflow .editorial-card:nth-child(3).is-animated .card-art svg > text:nth-of-type(2) { animation: graph-fill .4s ease-out 1.05s forwards; }
+@keyframes graph-trace { to { stroke-dashoffset: 0; } }
+@keyframes graph-fill { to { opacity: 1; } }
+@keyframes graph-area { to { opacity: .18; } }
+@keyframes graph-highlight { to { opacity: .6; } }
+@keyframes graph-point { to { opacity: 1; transform: scale(1); } }
+@keyframes graph-bar { to { transform: scaleY(1); } }
+@media (prefers-reduced-motion: reduce) {
+  html.has-graph-motion .editorial-grid .card-art svg > path:not(.art-rule)[fill="none"] { stroke-dashoffset: 0; }
+  html.has-graph-motion .editorial-grid .card-art svg > path,
+  html.has-graph-motion .editorial-grid .card-art svg circle,
+  html.has-graph-motion .editorial-grid .card-art svg g rect,
+  html.has-graph-motion .editorial-grid .card-art svg > rect,
+  html.has-graph-motion .editorial-grid .card-art svg > text { animation: none!important; opacity: 1!important; transform: none!important; }
+  html.has-graph-motion .editorial-features .editorial-card:first-child .card-art svg > path:nth-of-type(2) { opacity: .18!important; }
+  html.has-graph-motion .editorial-workflow .editorial-card:first-child .card-art svg > rect:last-of-type { opacity: .6!important; }
+}
 .card-copy { padding: 24px 10px 12px; flex: 1; display: flex; flex-direction: column; }
 .card-copy h3 { font: 700 clamp(17px, 1.4vw, 21px)/1.25 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .025em; text-transform: uppercase; margin-bottom: 14px; min-height: 2.5em; }
 .card-copy p { color: #365653; font-size: 15px; line-height: 1.55; margin-bottom: 30px; max-width: 38ch; }
@@ -502,4 +542,16 @@ new IntersectionObserver(([entry]) => { tourVisible = entry.isIntersecting; sync
 document.addEventListener('visibilitychange', syncTour);
 renderTour();
 syncTour();
+
+const graphCards = [...document.querySelectorAll('#home .editorial-grid .editorial-card')];
+if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.documentElement.classList.add('has-graph-motion');
+  graphCards.forEach(card => card.querySelectorAll('.card-art circle, .card-art g rect').forEach((shape, index) => shape.style.setProperty('--graph-index', index)));
+  const graphObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.add('is-animated');
+    graphObserver.unobserve(entry.target);
+  }), { threshold: .25 });
+  graphCards.forEach(card => graphObserver.observe(card));
+}
 </script></body></html>
