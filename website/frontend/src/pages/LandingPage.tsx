@@ -1,4 +1,4 @@
-﻿import { useRef } from 'react'
+﻿import { useRef, useState, type FormEvent } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, ArrowUpRight } from 'lucide-react'
 import PublicHeader from '../components/PublicHeader'
@@ -25,9 +25,23 @@ const questions = [
   ['Can I update the plan?', 'Yes. Select newer sales and inventory files in your workspace to train a fresh local model and replace its encrypted plan.'],
   ['Is this a clinical decision tool?', 'No. PULSE is a research demo. Forecasts and purchase guidance need review by qualified pharmacy staff.'],
 ]
+const faqTerms = ['file csv upload sales inventory', 'signal catalog history', 'plan update retrain newer fresh replace', 'clinical decision medical research qualified']
+
+function findFaqAnswer(query: string) {
+  const words = query.toLowerCase().match(/[a-z]{4,}/g) ?? []
+  const scores = faqTerms.map(terms => words.filter(word => terms.split(' ').some(term => term.startsWith(word) || word.startsWith(term))).length)
+  const best = Math.max(...scores)
+  return best ? questions[scores.indexOf(best)] : null
+}
 
 export default function LandingPage() {
   const pageRef = useRef<HTMLDivElement>(null)
+  const [faqQuery, setFaqQuery] = useState('')
+  const [faqResult, setFaqResult] = useState<string[] | null | undefined>()
+  function askFaq(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    setFaqResult(findFaqAnswer(faqQuery))
+  }
   usePublicReveals(pageRef)
   return <div className="pulse-public pulse-source-landing" ref={pageRef}>
     <a className="pulse-skip" href="#main">Skip to content</a>
@@ -59,9 +73,15 @@ export default function LandingPage() {
         <div className="source-section-heading pulse-reveal"><p>A simple workflow</p><h2>Two files in. A clearer plan out.</h2><p>No complicated setup. Start with the records you already have, then let your browser handle the modeling work.</p><span>Local CSVs · browser training</span></div>
         <ol className="source-steps pulse-reveal">{steps.map(([title,copy],index)=><li key={title}><span aria-hidden="true">0{index+1}</span><div><h3>{title}</h3><p>{copy}</p></div></li>)}</ol>
       </section>
-      <section id="questions" className="pulse-faq pulse-container">
-        <div className="pulse-reveal"><p className="source-label">Good to know</p><h2>A few practical details.</h2></div>
-        <div className="pulse-faq-list pulse-reveal">{questions.map(([question,answer])=><details key={question}><summary>{question}<span className="pulse-faq-plus" aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div>
+      <section id="questions" className="pulse-faq-section">
+        <div className="pulse-faq pulse-container">
+          <div className="pulse-reveal pulse-faq-intro"><p className="source-label">Good to know</p><h2>Questions</h2><p>Start with the essentials. Find an answer from these PULSE FAQs below.</p></div>
+          <div className="pulse-faq-list pulse-reveal">
+            {questions.map(([question,answer])=><details key={question}><summary>{question}<span className="pulse-faq-plus" aria-hidden="true">⌄</span></summary><p>{answer}</p></details>)}
+            <form className="pulse-faq-ask" onSubmit={askFaq}><label htmlFor="faq-question">Find an answer</label><div><input id="faq-question" value={faqQuery} onChange={event => { setFaqQuery(event.target.value); setFaqResult(undefined) }} placeholder="Ask about files, signals, plans…" required /><button type="submit" aria-label="Find FAQ answer"><ArrowRight size={19} /></button></div></form>
+            {faqResult !== undefined && <div className="pulse-faq-answer" role="status">{faqResult ? <><strong>{faqResult[0]}</strong><p>{faqResult[1]}</p></> : <p>No matching FAQ answer yet. Browse the questions above or visit the <Link to="/api-guide">API guide</Link>.</p>}</div>}
+          </div>
+        </div>
       </section>
       <section className="pulse-cta pulse-container">
         <p className="source-label">Ready when you are</p><h2>Make the next replenishment decision a little clearer.</h2><p>Start a private workspace, select your history, and see what may need attention over the next 14 days.</p><Link to="/signup" className="pulse-button">Create a workspace <ArrowRight size={18} /></Link>
