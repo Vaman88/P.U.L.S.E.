@@ -59,15 +59,14 @@ python -m backend.worker
 ```
 The worker will periodically trigger `refresh_combined_model.py` which trains and runs the `ProductionModel`.
 
-### 2. Frontend
+### 2. New website
 
-Install Node dependencies and start the React app:
+Start the visual workspace and prepare its local browser model runtime:
 ```bash
-cd website/frontend
-npm install
-npm run dev -- --host 127.0.0.1
+cd website
+./serve-prototype.sh
 ```
-The frontend is available at `http://localhost:5173`.
+Open `http://127.0.0.1:4173/prototype.html`. Upload daily sales and inventory CSVs there to train on this device. Public-signal history requires the API.
 
 ## The Production Model
 

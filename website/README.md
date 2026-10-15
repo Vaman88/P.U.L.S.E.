@@ -42,14 +42,13 @@ python -m backend.worker
 ```
 The worker processes live data, runs the core `ProductionModel`, and writes predictive signals to the local SQLite database.
 
-### 2. Start the Frontend
+### 2. Start the new website
 
-Navigate to `website/frontend/` and install packages:
+From `website/`, run:
 ```bash
-npm install
-npm run dev
+./serve-prototype.sh
 ```
-Open `http://localhost:5173` to view the UI.
+Open `http://127.0.0.1:4173/prototype.html`. The script prepares the local Pyodide/XGBoost runtime before serving the page. Training with 0 years of public signals works without the API; longer signal histories require the backend above.
 
 ## The Production Model
 
