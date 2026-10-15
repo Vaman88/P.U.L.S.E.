@@ -211,6 +211,9 @@ def _plan_quantities(direct_14, weights, trailing, latest, dates):
     recommended = max(minimums[-1], math.ceil(target_stock - on_hand - inbound[-1]), 0)
     depleted = np.flatnonzero(deficits > 1e-9)
     return {"on_hand_units": on_hand, "on_order_units": on_order,
+            "projected_stock_units": [round(on_hand, 2)] + [
+                round(max(0.0, on_hand + float(inbound[index]) - float(cumulative[index])), 2)
+                for index in range(14)],
             "expected_arrival_date": arrival.date().isoformat() if pd.notna(arrival) else None,
             "incoming_eta_overdue": overdue,
             "incoming_counted_by_day_14": bool(inbound[-1] > 0),
