@@ -9,3 +9,4 @@ website/data/*.sqlite3
 model/final_predictions.json
 website/catalog/*.gz
 model/arkansas_pharma_signal.egg-info/
+.DS_Store

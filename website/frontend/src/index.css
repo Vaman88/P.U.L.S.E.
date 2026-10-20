@@ -50,3 +50,39 @@ body {
 
 .dark-pill:hover { background: #211D1B; transform: translateY(-1px); }
 .dark-pill:disabled { opacity: 0.55; transform: none; }
+
+/* Documentation and reading typography improvements */
+.pulse-doc-prose {
+  font-size: 1.0625rem; /* 17px */
+  line-height: 1.75;
+  color: #37322F;
+}
+
+@media (max-width: 640px) {
+  .pulse-doc-prose {
+    font-size: 1rem; /* 16px */
+    line-height: 1.65;
+  }
+}
+
+.pulse-doc-prose p {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+}
+
+.pulse-doc-prose p:first-child {
+  margin-top: 0;
+}
+
+.pulse-doc-prose code,
+code.inline-code {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
+  font-size: 0.88em;
+  font-weight: 600;
+  color: #211D1B;
+  background: #F0EDEB;
+  border: 1px solid #E0DEDB;
+  padding: 0.18em 0.45em;
+  border-radius: 5px;
+  word-break: break-word;
+}

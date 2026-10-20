@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { ArrowRight, Menu, X, Pill, UserRound, LogOut } from "lucide-react";
+import { ArrowRight, Menu, X, UserRound, LogOut } from "lucide-react";
 import { isSignedIn } from "../api";
 
 export default function PublicHeader({
@@ -69,8 +69,8 @@ export default function PublicHeader({
     <header className={`pulse-header ${workspace ? "pulse-workspace-header" : ""} ${overlay ? "pulse-header-overlay" : ""} ${scrolled ? "is-scrolled" : ""} ${overContent ? "is-over-content" : ""}`}>
       <div className="pulse-header-inner pulse-container">
         <Link to="/" className="pulse-wordmark" aria-label="Pulse home">
-          <span className="pulse-brand-icon" aria-hidden="true"><Pill size={20} /></span>
-          pulse<span className="pulse-wordmark-period">.</span>
+          <img className="pulse-brand-icon" src="/pulse-supply-mark.svg" alt="" />
+          PULSE
         </Link>
         <button
           ref={menuRef}

@@ -585,36 +585,6 @@
   font-size: 14px;
   margin-top: 20px;
 }
-.pulse-faq details {
-  border-bottom: 1px solid var(--pulse-line);
-}
-.pulse-faq summary {
-  padding: 22px 0;
-  display: flex;
-  justify-content: space-between;
-  gap: 28px;
-  list-style: none;
-  font-size: 14px;
-  font-weight: 700;
-}
-.pulse-faq summary::-webkit-details-marker {
-  display: none;
-}
-.pulse-faq-plus {
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 1.2;
-  color: var(--pulse-accent);
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
-}
-.pulse-faq details[open] .pulse-faq-plus {
-  transform: rotate(45deg);
-}
-.pulse-faq details p {
-  color: var(--pulse-muted);
-  padding: 0 40px 24px 0;
-  font-size: 13px;
-}
 .pulse-cta {
   padding-block: 66px 96px;
   text-align: center;
@@ -816,9 +786,6 @@
   .pulse-workflow-panel > :nth-child(3) { animation-delay: 0.08s; }
   .pulse-workflow-panel > :nth-child(4) { animation-delay: 0.12s; }
   .pulse-workflow-panel > :nth-child(5) { animation-delay: 0.16s; }
-  .pulse-faq details[open] > p {
-    animation: pulse-enter 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
-  }
 }
 @keyframes pulse-section-reveal {
   from {
@@ -1066,10 +1033,6 @@
   }
   .pulse-faq h2 br {
     display: none;
-  }
-  .pulse-faq summary {
-    padding-block: 20px;
-    font-size: 13px;
   }
   .pulse-cta {
     padding-block: 38px 62px;

@@ -89,7 +89,22 @@ def create_app() -> FastAPI:
 <title>PULSE API documentation</title>
 <link rel="icon" href="/api-doc-assets/favicon-32x32.png">
 <link rel="stylesheet" href="/api-doc-assets/swagger-ui.css">
-</head><body><div id="swagger-ui"></div>
+<link rel="stylesheet" href="/api-doc-assets/swagger-custom.css">
+</head><body>
+<header class="pulse-docs-topbar">
+  <div class="pulse-docs-topbar-inner">
+    <div class="pulse-docs-brand-wrap">
+      <a href="/" class="pulse-docs-brand">PULSE</a>
+      <span class="pulse-docs-badge">API docs</span>
+    </div>
+    <nav class="pulse-docs-nav" aria-label="Documentation navigation">
+      <a href="/api-guide">API guide</a>
+      <a href="/signals">Signals</a>
+      <a href="/dashboard">Dashboard</a>
+    </nav>
+  </div>
+</header>
+<div id="swagger-ui"></div>
 <script src="/api-doc-assets/swagger-ui-bundle.js" defer></script>
 <script src="/api-doc-assets/swagger-init.js" defer></script>
 </body></html>""")

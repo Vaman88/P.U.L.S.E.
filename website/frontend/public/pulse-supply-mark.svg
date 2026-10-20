@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" fill="none">
+  <mask id="slot"><path fill="#fff" d="M0 0h240v120H0z"/><path fill="#000" d="M96 42h59l17 18-17 18H96V42Z"/></mask>
+  <g mask="url(#slot)">
+    <path fill="#126F73" d="M60 0h75c4 0 7 1 10 4l43 49c4 4 4 10 0 14l-43 49c-3 3-6 4-10 4H60C27 120 0 93 0 60S27 0 60 0Z"/>
+    <path fill="#B4EAF5" d="M155 0h25c33 0 60 27 60 60s-27 60-60 60h-25c-4 0-6-4-3-7l47-49c2-2 2-6 0-8L152 7c-3-3-1-7 3-7Z"/>
+  </g>
+</svg>
