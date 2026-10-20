@@ -1,6 +1,8 @@
 node_modules
 dist
 public/pyodide
+test-results
+playwright-report
 .env
 .env.*
 *.log

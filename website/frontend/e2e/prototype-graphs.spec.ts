@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test'
 
-const prototypeUrl = new URL('../../prototype.html', import.meta.url).href
+const prototypeUrl = '/'
 test.use({ channel: 'chrome' })
 
 test('all six illustrations animate when scrolled into view', async ({ page }) => {

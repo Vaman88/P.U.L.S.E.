@@ -23,7 +23,7 @@ run-backend: ## Run backend server
 	python -m backend.main
 
 run-frontend: ## Run frontend dev server
-	cd frontend && npm run dev
+	./serve-website.sh
 
 docker-build: ## Build Docker images
 	docker-compose build

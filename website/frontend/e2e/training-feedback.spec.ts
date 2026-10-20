@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { expect, test } from '@playwright/test'
 
-const prototypeUrl = new URL('../../prototype.html', import.meta.url).href
+const prototypeUrl = '/'
 const example = JSON.parse(readFileSync(new URL('../public/illustrative-plan.json', import.meta.url), 'utf8'))
 test.use({ channel: 'chrome' })
 

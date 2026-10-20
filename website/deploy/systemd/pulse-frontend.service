@@ -1,5 +1,5 @@
 [Unit]
-Description=PULSE local built frontend preview
+Description=PULSE website
 After=pulse-api.service
 
 [Service]
@@ -8,7 +8,7 @@ NoNewPrivileges=true
 PrivateTmp=true
 Type=simple
 WorkingDirectory=/root/projects/PULSE/website/frontend
-ExecStart=/usr/bin/npm run preview -- --host 127.0.0.1 --port 3141
+ExecStart=/usr/bin/python3 -m http.server 3141 --bind 127.0.0.1 --directory .
 Restart=always
 RestartSec=5
 

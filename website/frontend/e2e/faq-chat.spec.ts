@@ -2,10 +2,7 @@ import { expect, test } from '@playwright/test'
 
 test.use({ channel: 'chrome' })
 
-for (const [name, url, list] of [
-  ['site', '/', '.pulse-faq-list'],
-  ['prototype', new URL('../../prototype.html', import.meta.url).href, '.faq-list'],
-] as const) {
+for (const [name, url, list] of [['website', '/', '.faq-list']] as const) {
   test(`${name} FAQ smoothly switches answers without search`, async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 })
     await page.goto(url)

@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test'
 declare let tourTime: number
 declare function renderTour(): void
 
-const prototypeUrl = new URL('../../prototype.html', import.meta.url).href
+const prototypeUrl = '/'
 test.use({ channel: 'chrome' })
 
 for (const width of [1440, 320]) {
