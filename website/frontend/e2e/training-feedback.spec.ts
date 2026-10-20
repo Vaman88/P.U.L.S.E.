@@ -20,6 +20,7 @@ test('both CSVs unlock one train button and the illustrative results', async ({ 
   await page.locator('#access-submit').click()
   await expect(page.locator('#preview-example-plan')).toHaveCount(0)
   await expect(page.locator('#demo')).toHaveCount(0)
+  await expect(page.locator('#train-state')).toBeHidden()
   await page.locator('#train-device').click()
   await expect(page.locator('#train-state')).toContainText('Choose both CSV files')
   await expect(page.locator('#train-progress')).toBeHidden()
