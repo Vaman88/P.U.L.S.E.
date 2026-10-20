@@ -137,7 +137,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Atorvastatin 20 mg",
@@ -172,7 +175,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Metformin 500 mg",
@@ -207,7 +213,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Sertraline 50 mg",
@@ -242,7 +251,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Cetirizine 10 mg",
@@ -277,7 +289,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Montelukast 10 mg",
@@ -312,7 +327,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Rosuvastatin 10 mg",
@@ -347,7 +365,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Loratadine 10 mg",
@@ -382,7 +403,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Hydrochlorothiazide 25 mg",
@@ -417,7 +441,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Pantoprazole 40 mg",
@@ -452,7 +479,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Escitalopram 10 mg",
@@ -487,7 +517,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Glipizide 5 mg",
@@ -522,7 +555,10 @@
         0,
         0,
         0
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Metoprolol succinate ER 25 mg",
@@ -557,7 +593,10 @@
         192,
         140,
         3
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Albuterol HFA 90 mcg",
@@ -592,7 +631,10 @@
         15,
         11,
         0
-      ]
+      ],
+      "package_size_units": 1,
+      "package_type": "inhaler",
+      "unit_of_measure": "inhaler"
     },
     {
       "drug_name": "Amlodipine 5 mg",
@@ -627,7 +669,10 @@
         4113,
         4039,
         3869
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Amoxicillin 500 mg",
@@ -662,7 +707,10 @@
         387,
         348,
         270
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "capsule"
     },
     {
       "drug_name": "Azithromycin 250 mg",
@@ -697,7 +745,10 @@
         515,
         495,
         449
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Doxycycline 100 mg",
@@ -732,7 +783,10 @@
         971,
         958,
         915
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "capsule"
     },
     {
       "drug_name": "Fluticasone nasal 50 mcg",
@@ -767,7 +821,10 @@
         111,
         104,
         88
-      ]
+      ],
+      "package_size_units": 1,
+      "package_type": "bottle",
+      "unit_of_measure": "bottle"
     },
     {
       "drug_name": "Levothyroxine 50 mcg",
@@ -802,7 +859,10 @@
         1459,
         1396,
         1264
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Lisinopril 10 mg",
@@ -837,7 +897,10 @@
         547,
         466,
         297
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Losartan 50 mg",
@@ -872,7 +935,10 @@
         1909,
         1839,
         1647
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     },
     {
       "drug_name": "Omeprazole 20 mg",
@@ -907,7 +973,10 @@
         3071,
         3018,
         2902
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "capsule"
     },
     {
       "drug_name": "Ondansetron ODT 4 mg",
@@ -942,7 +1011,10 @@
         936,
         922,
         879
-      ]
+      ],
+      "package_size_units": 100,
+      "package_type": "bottle",
+      "unit_of_measure": "tablet"
     }
   ]
 }
