@@ -14,7 +14,7 @@ export default function PlanningDashboard({ demoOnly = false }: { demoOnly?: boo
   const selected = SAMPLE_PLANS.find(plan => plan.id === selectedId)!
   const filtered = SAMPLE_PLANS.filter(plan => `${plan.name} ${plan.strength}`.toLowerCase().includes(search.toLowerCase()) && (!onlyAttention || plan.suggested > 0))
   const urgent = SAMPLE_PLANS.filter(plan => plan.minimum7 > 0)
-  const orders = SAMPLE_PLANS.reduce((sum, plan) => sum + plan.suggested, 0)
+  const ordersToReview = SAMPLE_PLANS.filter(plan => plan.suggested > 0).length
   function switchView(value: 'demo' | 'live') { setView(value); localStorage.setItem('pulse-dashboard-view', value) }
   function exportPlan() {
     const rows = [['drug_name','strength','on_hand_units','demand_14d_units','minimum_buy_7d_units','suggested_order_units','sample_as_of_date'], ...SAMPLE_PLANS.map(plan => [plan.name,plan.strength,plan.onHand,plan.demand14,plan.minimum7,plan.suggested,PLAN_AS_OF])]
@@ -27,7 +27,7 @@ export default function PlanningDashboard({ demoOnly = false }: { demoOnly?: boo
     {view === 'live' ? <RiskOverview /> : <>
       <div className="planning-page-heading"><div><p className="plan-eyebrow">YOUR NEXT 14 DAYS, IN VIEW</p><h1>Demand &amp; inventory</h1><p>A clearer plan for the medicines on your shelves.</p></div><button type="button" className="plan-button secondary" onClick={exportPlan}><ArrowDownToLine size={16} />Export sample plan</button></div>
       <div className="demo-disclosure" role="note"><span className="demo-tag">TEST DEMO</span><p>Sample data from the PULSE repository. These quantities are illustrative, not forecasts for your clinic.</p><span className="demo-as-of">As of {fmtShort(PLAN_AS_OF)}, 2026</span></div>
-      <div className="plan-stat-strip"><div><Package size={20} /><span>Medications in view<strong>{SAMPLE_PLANS.length}</strong></span></div><div><AlertTriangle size={20} /><span>Need stock within 7 days<strong>{urgent.length}</strong></span></div><div><ArrowUpRight size={20} /><span>Suggested sample order<strong>{fmtUnits(orders)} <small>units</small></strong></span></div><div><CalendarDays size={20} /><span>Planning window<strong>14 <small>days</small></strong></span></div></div>
+      <div className="plan-stat-strip"><div><Package size={20} /><span>Medications in view<strong>{SAMPLE_PLANS.length}</strong></span></div><div><AlertTriangle size={20} /><span>Need stock within 7 days<strong>{urgent.length}</strong></span></div><div><ArrowUpRight size={20} /><span>Suggested orders to review<strong>{ordersToReview}</strong></span></div><div><CalendarDays size={20} /><span>Planning window<strong>14 <small>days</small></strong></span></div></div>
       <div className="plan-workbench">
         <section className="plan-medications bg-surface" aria-labelledby="medication-heading">
           <div className="plan-section-heading"><div><p className="plan-eyebrow">01 / STOCK REVIEW</p><h2 id="medication-heading">Your medication list</h2></div><span>{filtered.length} of {SAMPLE_PLANS.length}</span></div>
