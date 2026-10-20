@@ -43,3 +43,30 @@ test('dashboard shows training progress and celebrates only the new plan', async
   await expect(page.getByRole('progressbar', { name: 'Training on this device' })).toHaveCount(0)
   await expect(page.locator('canvas')).toHaveCount(1)
 })
+
+test('synthetic example opens without saving a trained plan', async ({ page }) => {
+  await page.route('**/src/browserForecast.ts*', route => route.fulfill({ contentType: 'text/javascript', body: `
+    export const getBrowserPlan = () => null;
+    export const lockBrowserPlan = () => {};
+    export const unlockBrowserPlan = async () => null;
+    export const trainInBrowser = async () => { throw new Error('Training was not requested') };
+  ` }))
+  await page.route('**/src/privateStore.ts*', route => route.fulfill({ contentType: 'text/javascript', body: 'export const privateStoreUnlocked = () => true;' }))
+  await page.route('**/api/**', route => route.fulfill({ json: { username: 'preview' } }))
+
+  await page.goto('/dashboard')
+  await page.getByRole('button', { name: 'View synthetic example' }).click()
+  await expect(page.getByText('Illustrative synthetic example')).toBeVisible()
+  await expect(page.getByText('Based on the 24-medication demo CSVs', { exact: false })).toBeVisible()
+  await expect(page.getByText('Medications', { exact: true })).toBeVisible()
+  await expect(page.getByText('24', { exact: true })).toBeVisible()
+  await expect(page.getByText('Suggested orders to review')).toBeVisible()
+  await expect(page.getByText('14', { exact: true })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Recent news & public signals' })).toHaveCount(0)
+  await expect(page.locator('canvas')).toHaveCount(0)
+
+  await page.getByRole('button', { name: 'Train with your files' }).click()
+  await expect(page.getByRole('heading', { name: 'Build your demand plan.' })).toBeVisible()
+  await page.reload()
+  await expect(page.getByRole('heading', { name: 'Build your demand plan.' })).toBeVisible()
+})
