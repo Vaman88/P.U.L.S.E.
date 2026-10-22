@@ -1,0 +1,1345 @@
+date,drug_name,units_sold
+2026-08-25,Metformin ER 500 mg,125
+2026-08-25,Atorvastatin 20 mg,146
+2026-08-25,Metformin 500 mg,109
+2026-08-25,Sertraline 50 mg,84
+2026-08-25,Cetirizine 10 mg,56
+2026-08-25,Montelukast 10 mg,51
+2026-08-25,Rosuvastatin 10 mg,56
+2026-08-25,Loratadine 10 mg,73
+2026-08-25,Hydrochlorothiazide 25 mg,88
+2026-08-25,Pantoprazole 40 mg,32
+2026-08-25,Escitalopram 10 mg,49
+2026-08-25,Glipizide 5 mg,30
+2026-08-25,Metoprolol succinate ER 25 mg,78
+2026-08-25,Albuterol HFA 90 mcg,9
+2026-08-25,Amlodipine 5 mg,158
+2026-08-25,Amoxicillin 500 mg,70
+2026-08-25,Azithromycin 250 mg,28
+2026-08-25,Doxycycline 100 mg,21
+2026-08-25,Fluticasone nasal 50 mcg,10
+2026-08-25,Levothyroxine 50 mcg,95
+2026-08-25,Lisinopril 10 mg,173
+2026-08-25,Losartan 50 mg,165
+2026-08-25,Omeprazole 20 mg,86
+2026-08-25,Ondansetron ODT 4 mg,20
+2026-08-26,Metformin ER 500 mg,152
+2026-08-26,Atorvastatin 20 mg,151
+2026-08-26,Metformin 500 mg,96
+2026-08-26,Sertraline 50 mg,66
+2026-08-26,Cetirizine 10 mg,50
+2026-08-26,Montelukast 10 mg,61
+2026-08-26,Rosuvastatin 10 mg,70
+2026-08-26,Loratadine 10 mg,79
+2026-08-26,Hydrochlorothiazide 25 mg,80
+2026-08-26,Pantoprazole 40 mg,25
+2026-08-26,Escitalopram 10 mg,41
+2026-08-26,Glipizide 5 mg,33
+2026-08-26,Metoprolol succinate ER 25 mg,99
+2026-08-26,Albuterol HFA 90 mcg,10
+2026-08-26,Amlodipine 5 mg,152
+2026-08-26,Amoxicillin 500 mg,58
+2026-08-26,Azithromycin 250 mg,22
+2026-08-26,Doxycycline 100 mg,22
+2026-08-26,Fluticasone nasal 50 mcg,12
+2026-08-26,Levothyroxine 50 mcg,113
+2026-08-26,Lisinopril 10 mg,175
+2026-08-26,Losartan 50 mg,142
+2026-08-26,Omeprazole 20 mg,68
+2026-08-26,Ondansetron ODT 4 mg,18
+2026-08-27,Metformin ER 500 mg,166
+2026-08-27,Atorvastatin 20 mg,139
+2026-08-27,Metformin 500 mg,77
+2026-08-27,Sertraline 50 mg,55
+2026-08-27,Cetirizine 10 mg,55
+2026-08-27,Montelukast 10 mg,77
+2026-08-27,Rosuvastatin 10 mg,80
+2026-08-27,Loratadine 10 mg,77
+2026-08-27,Hydrochlorothiazide 25 mg,67
+2026-08-27,Pantoprazole 40 mg,20
+2026-08-27,Escitalopram 10 mg,42
+2026-08-27,Glipizide 5 mg,42
+2026-08-27,Metoprolol succinate ER 25 mg,118
+2026-08-27,Albuterol HFA 90 mcg,10
+2026-08-27,Amlodipine 5 mg,131
+2026-08-27,Amoxicillin 500 mg,46
+2026-08-27,Azithromycin 250 mg,21
+2026-08-27,Doxycycline 100 mg,27
+2026-08-27,Fluticasone nasal 50 mcg,15
+2026-08-27,Levothyroxine 50 mcg,120
+2026-08-27,Lisinopril 10 mg,157
+2026-08-27,Losartan 50 mg,113
+2026-08-27,Omeprazole 20 mg,58
+2026-08-27,Ondansetron ODT 4 mg,21
+2026-08-28,Metformin ER 500 mg,161
+2026-08-28,Atorvastatin 20 mg,116
+2026-08-28,Metformin 500 mg,61
+2026-08-28,Sertraline 50 mg,56
+2026-08-28,Cetirizine 10 mg,70
+2026-08-28,Montelukast 10 mg,92
+2026-08-28,Rosuvastatin 10 mg,81
+2026-08-28,Loratadine 10 mg,66
+2026-08-28,Hydrochlorothiazide 25 mg,52
+2026-08-28,Pantoprazole 40 mg,19
+2026-08-28,Escitalopram 10 mg,51
+2026-08-28,Glipizide 5 mg,52
+2026-08-28,Metoprolol succinate ER 25 mg,126
+2026-08-28,Albuterol HFA 90 mcg,9
+2026-08-28,Amlodipine 5 mg,104
+2026-08-28,Amoxicillin 500 mg,39
+2026-08-28,Azithromycin 250 mg,24
+2026-08-28,Doxycycline 100 mg,34
+2026-08-28,Fluticasone nasal 50 mcg,17
+2026-08-28,Levothyroxine 50 mcg,113
+2026-08-28,Lisinopril 10 mg,128
+2026-08-28,Losartan 50 mg,91
+2026-08-28,Omeprazole 20 mg,62
+2026-08-28,Ondansetron ODT 4 mg,27
+2026-08-29,Metformin ER 500 mg,139
+2026-08-29,Atorvastatin 20 mg,91
+2026-08-29,Metformin 500 mg,56
+2026-08-29,Sertraline 50 mg,68
+2026-08-29,Cetirizine 10 mg,86
+2026-08-29,Montelukast 10 mg,99
+2026-08-29,Rosuvastatin 10 mg,73
+2026-08-29,Loratadine 10 mg,53
+2026-08-29,Hydrochlorothiazide 25 mg,45
+2026-08-29,Pantoprazole 40 mg,21
+2026-08-29,Escitalopram 10 mg,64
+2026-08-29,Glipizide 5 mg,59
+2026-08-29,Metoprolol succinate ER 25 mg,120
+2026-08-29,Albuterol HFA 90 mcg,7
+2026-08-29,Amlodipine 5 mg,84
+2026-08-29,Amoxicillin 500 mg,41
+2026-08-29,Azithromycin 250 mg,30
+2026-08-29,Doxycycline 100 mg,39
+2026-08-29,Fluticasone nasal 50 mcg,17
+2026-08-29,Levothyroxine 50 mcg,96
+2026-08-29,Lisinopril 10 mg,101
+2026-08-29,Losartan 50 mg,88
+2026-08-29,Omeprazole 20 mg,77
+2026-08-29,Ondansetron ODT 4 mg,33
+2026-08-30,Metformin ER 500 mg,111
+2026-08-30,Atorvastatin 20 mg,77
+2026-08-30,Metformin 500 mg,64
+2026-08-30,Sertraline 50 mg,86
+2026-08-30,Cetirizine 10 mg,97
+2026-08-30,Montelukast 10 mg,94
+2026-08-30,Rosuvastatin 10 mg,60
+2026-08-30,Loratadine 10 mg,42
+2026-08-30,Hydrochlorothiazide 25 mg,47
+2026-08-30,Pantoprazole 40 mg,27
+2026-08-30,Escitalopram 10 mg,76
+2026-08-30,Glipizide 5 mg,58
+2026-08-30,Metoprolol succinate ER 25 mg,101
+2026-08-30,Albuterol HFA 90 mcg,6
+2026-08-30,Amlodipine 5 mg,81
+2026-08-30,Amoxicillin 500 mg,51
+2026-08-30,Azithromycin 250 mg,37
+2026-08-30,Doxycycline 100 mg,41
+2026-08-30,Fluticasone nasal 50 mcg,15
+2026-08-30,Levothyroxine 50 mcg,76
+2026-08-30,Lisinopril 10 mg,89
+2026-08-30,Losartan 50 mg,104
+2026-08-30,Omeprazole 20 mg,97
+2026-08-30,Ondansetron ODT 4 mg,36
+2026-08-31,Metformin ER 500 mg,89
+2026-08-31,Atorvastatin 20 mg,81
+2026-08-31,Metformin 500 mg,81
+2026-08-31,Sertraline 50 mg,102
+2026-08-31,Cetirizine 10 mg,97
+2026-08-31,Montelukast 10 mg,80
+2026-08-31,Rosuvastatin 10 mg,47
+2026-08-31,Loratadine 10 mg,40
+2026-08-31,Hydrochlorothiazide 25 mg,58
+2026-08-31,Pantoprazole 40 mg,33
+2026-08-31,Escitalopram 10 mg,80
+2026-08-31,Glipizide 5 mg,52
+2026-08-31,Metoprolol succinate ER 25 mg,80
+2026-08-31,Albuterol HFA 90 mcg,5
+2026-08-31,Amlodipine 5 mg,95
+2026-08-31,Amoxicillin 500 mg,64
+2026-08-31,Azithromycin 250 mg,40
+2026-08-31,Doxycycline 100 mg,38
+2026-08-31,Fluticasone nasal 50 mcg,12
+2026-08-31,Levothyroxine 50 mcg,62
+2026-08-31,Lisinopril 10 mg,98
+2026-08-31,Losartan 50 mg,132
+2026-08-31,Omeprazole 20 mg,111
+2026-08-31,Ondansetron ODT 4 mg,35
+2026-09-01,Metformin ER 500 mg,85
+2026-09-01,Atorvastatin 20 mg,100
+2026-09-01,Metformin 500 mg,100
+2026-09-01,Sertraline 50 mg,107
+2026-09-01,Cetirizine 10 mg,86
+2026-09-01,Montelukast 10 mg,63
+2026-09-01,Rosuvastatin 10 mg,41
+2026-09-01,Loratadine 10 mg,48
+2026-09-01,Hydrochlorothiazide 25 mg,73
+2026-09-01,Pantoprazole 40 mg,37
+2026-09-01,Escitalopram 10 mg,74
+2026-09-01,Glipizide 5 mg,42
+2026-09-01,Metoprolol succinate ER 25 mg,66
+2026-09-01,Albuterol HFA 90 mcg,6
+2026-09-01,Amlodipine 5 mg,121
+2026-09-01,Amoxicillin 500 mg,74
+2026-09-01,Azithromycin 250 mg,39
+2026-09-01,Doxycycline 100 mg,32
+2026-09-01,Fluticasone nasal 50 mcg,10
+2026-09-01,Levothyroxine 50 mcg,62
+2026-09-01,Lisinopril 10 mg,123
+2026-09-01,Losartan 50 mg,159
+2026-09-01,Omeprazole 20 mg,114
+2026-09-01,Ondansetron ODT 4 mg,31
+2026-09-02,Metformin ER 500 mg,99
+2026-09-02,Atorvastatin 20 mg,126
+2026-09-02,Metformin 500 mg,111
+2026-09-02,Sertraline 50 mg,100
+2026-09-02,Cetirizine 10 mg,70
+2026-09-02,Montelukast 10 mg,52
+2026-09-02,Rosuvastatin 10 mg,45
+2026-09-02,Loratadine 10 mg,60
+2026-09-02,Hydrochlorothiazide 25 mg,85
+2026-09-02,Pantoprazole 40 mg,36
+2026-09-02,Escitalopram 10 mg,62
+2026-09-02,Glipizide 5 mg,33
+2026-09-02,Metoprolol succinate ER 25 mg,65
+2026-09-02,Albuterol HFA 90 mcg,7
+2026-09-02,Amlodipine 5 mg,145
+2026-09-02,Amoxicillin 500 mg,77
+2026-09-02,Azithromycin 250 mg,34
+2026-09-02,Doxycycline 100 mg,25
+2026-09-02,Fluticasone nasal 50 mcg,9
+2026-09-02,Levothyroxine 50 mcg,75
+2026-09-02,Lisinopril 10 mg,152
+2026-09-02,Losartan 50 mg,172
+2026-09-02,Omeprazole 20 mg,104
+2026-09-02,Ondansetron ODT 4 mg,24
+2026-09-03,Metformin ER 500 mg,126
+2026-09-03,Atorvastatin 20 mg,146
+2026-09-03,Metformin 500 mg,109
+2026-09-03,Sertraline 50 mg,84
+2026-09-03,Cetirizine 10 mg,55
+2026-09-03,Montelukast 10 mg,51
+2026-09-03,Rosuvastatin 10 mg,56
+2026-09-03,Loratadine 10 mg,73
+2026-09-03,Hydrochlorothiazide 25 mg,88
+2026-09-03,Pantoprazole 40 mg,31
+2026-09-03,Escitalopram 10 mg,49
+2026-09-03,Glipizide 5 mg,30
+2026-09-03,Metoprolol succinate ER 25 mg,79
+2026-09-03,Albuterol HFA 90 mcg,9
+2026-09-03,Amlodipine 5 mg,158
+2026-09-03,Amoxicillin 500 mg,70
+2026-09-03,Azithromycin 250 mg,27
+2026-09-03,Doxycycline 100 mg,21
+2026-09-03,Fluticasone nasal 50 mcg,10
+2026-09-03,Levothyroxine 50 mcg,95
+2026-09-03,Lisinopril 10 mg,173
+2026-09-03,Losartan 50 mg,165
+2026-09-03,Omeprazole 20 mg,86
+2026-09-03,Ondansetron ODT 4 mg,20
+2026-09-04,Metformin ER 500 mg,153
+2026-09-04,Atorvastatin 20 mg,151
+2026-09-04,Metformin 500 mg,95
+2026-09-04,Sertraline 50 mg,66
+2026-09-04,Cetirizine 10 mg,50
+2026-09-04,Montelukast 10 mg,61
+2026-09-04,Rosuvastatin 10 mg,70
+2026-09-04,Loratadine 10 mg,79
+2026-09-04,Hydrochlorothiazide 25 mg,80
+2026-09-04,Pantoprazole 40 mg,25
+2026-09-04,Escitalopram 10 mg,41
+2026-09-04,Glipizide 5 mg,34
+2026-09-04,Metoprolol succinate ER 25 mg,100
+2026-09-04,Albuterol HFA 90 mcg,10
+2026-09-04,Amlodipine 5 mg,151
+2026-09-04,Amoxicillin 500 mg,58
+2026-09-04,Azithromycin 250 mg,22
+2026-09-04,Doxycycline 100 mg,22
+2026-09-04,Fluticasone nasal 50 mcg,12
+2026-09-04,Levothyroxine 50 mcg,113
+2026-09-04,Lisinopril 10 mg,175
+2026-09-04,Losartan 50 mg,141
+2026-09-04,Omeprazole 20 mg,68
+2026-09-04,Ondansetron ODT 4 mg,18
+2026-09-05,Metformin ER 500 mg,166
+2026-09-05,Atorvastatin 20 mg,139
+2026-09-05,Metformin 500 mg,76
+2026-09-05,Sertraline 50 mg,55
+2026-09-05,Cetirizine 10 mg,55
+2026-09-05,Montelukast 10 mg,78
+2026-09-05,Rosuvastatin 10 mg,80
+2026-09-05,Loratadine 10 mg,76
+2026-09-05,Hydrochlorothiazide 25 mg,66
+2026-09-05,Pantoprazole 40 mg,20
+2026-09-05,Escitalopram 10 mg,42
+2026-09-05,Glipizide 5 mg,42
+2026-09-05,Metoprolol succinate ER 25 mg,118
+2026-09-05,Albuterol HFA 90 mcg,10
+2026-09-05,Amlodipine 5 mg,130
+2026-09-05,Amoxicillin 500 mg,46
+2026-09-05,Azithromycin 250 mg,21
+2026-09-05,Doxycycline 100 mg,27
+2026-09-05,Fluticasone nasal 50 mcg,15
+2026-09-05,Levothyroxine 50 mcg,120
+2026-09-05,Lisinopril 10 mg,156
+2026-09-05,Losartan 50 mg,112
+2026-09-05,Omeprazole 20 mg,58
+2026-09-05,Ondansetron ODT 4 mg,21
+2026-09-06,Metformin ER 500 mg,161
+2026-09-06,Atorvastatin 20 mg,115
+2026-09-06,Metformin 500 mg,61
+2026-09-06,Sertraline 50 mg,56
+2026-09-06,Cetirizine 10 mg,70
+2026-09-06,Montelukast 10 mg,92
+2026-09-06,Rosuvastatin 10 mg,81
+2026-09-06,Loratadine 10 mg,66
+2026-09-06,Hydrochlorothiazide 25 mg,52
+2026-09-06,Pantoprazole 40 mg,19
+2026-09-06,Escitalopram 10 mg,51
+2026-09-06,Glipizide 5 mg,52
+2026-09-06,Metoprolol succinate ER 25 mg,126
+2026-09-06,Albuterol HFA 90 mcg,9
+2026-09-06,Amlodipine 5 mg,103
+2026-09-06,Amoxicillin 500 mg,39
+2026-09-06,Azithromycin 250 mg,24
+2026-09-06,Doxycycline 100 mg,34
+2026-09-06,Fluticasone nasal 50 mcg,17
+2026-09-06,Levothyroxine 50 mcg,113
+2026-09-06,Lisinopril 10 mg,127
+2026-09-06,Losartan 50 mg,91
+2026-09-06,Omeprazole 20 mg,62
+2026-09-06,Ondansetron ODT 4 mg,27
+2026-09-07,Metformin ER 500 mg,139
+2026-09-07,Atorvastatin 20 mg,91
+2026-09-07,Metformin 500 mg,56
+2026-09-07,Sertraline 50 mg,69
+2026-09-07,Cetirizine 10 mg,86
+2026-09-07,Montelukast 10 mg,99
+2026-09-07,Rosuvastatin 10 mg,73
+2026-09-07,Loratadine 10 mg,52
+2026-09-07,Hydrochlorothiazide 25 mg,45
+2026-09-07,Pantoprazole 40 mg,22
+2026-09-07,Escitalopram 10 mg,65
+2026-09-07,Glipizide 5 mg,59
+2026-09-07,Metoprolol succinate ER 25 mg,119
+2026-09-07,Albuterol HFA 90 mcg,7
+2026-09-07,Amlodipine 5 mg,84
+2026-09-07,Amoxicillin 500 mg,42
+2026-09-07,Azithromycin 250 mg,30
+2026-09-07,Doxycycline 100 mg,40
+2026-09-07,Fluticasone nasal 50 mcg,17
+2026-09-07,Levothyroxine 50 mcg,95
+2026-09-07,Lisinopril 10 mg,101
+2026-09-07,Losartan 50 mg,88
+2026-09-07,Omeprazole 20 mg,78
+2026-09-07,Ondansetron ODT 4 mg,33
+2026-09-08,Metformin ER 500 mg,110
+2026-09-08,Atorvastatin 20 mg,77
+2026-09-08,Metformin 500 mg,65
+2026-09-08,Sertraline 50 mg,87
+2026-09-08,Cetirizine 10 mg,97
+2026-09-08,Montelukast 10 mg,94
+2026-09-08,Rosuvastatin 10 mg,60
+2026-09-08,Loratadine 10 mg,42
+2026-09-08,Hydrochlorothiazide 25 mg,47
+2026-09-08,Pantoprazole 40 mg,27
+2026-09-08,Escitalopram 10 mg,76
+2026-09-08,Glipizide 5 mg,58
+2026-09-08,Metoprolol succinate ER 25 mg,101
+2026-09-08,Albuterol HFA 90 mcg,6
+2026-09-08,Amlodipine 5 mg,81
+2026-09-08,Amoxicillin 500 mg,52
+2026-09-08,Azithromycin 250 mg,37
+2026-09-08,Doxycycline 100 mg,41
+2026-09-08,Fluticasone nasal 50 mcg,15
+2026-09-08,Levothyroxine 50 mcg,75
+2026-09-08,Lisinopril 10 mg,89
+2026-09-08,Losartan 50 mg,105
+2026-09-08,Omeprazole 20 mg,97
+2026-09-08,Ondansetron ODT 4 mg,36
+2026-09-09,Metformin ER 500 mg,89
+2026-09-09,Atorvastatin 20 mg,81
+2026-09-09,Metformin 500 mg,82
+2026-09-09,Sertraline 50 mg,102
+2026-09-09,Cetirizine 10 mg,97
+2026-09-09,Montelukast 10 mg,79
+2026-09-09,Rosuvastatin 10 mg,47
+2026-09-09,Loratadine 10 mg,41
+2026-09-09,Hydrochlorothiazide 25 mg,59
+2026-09-09,Pantoprazole 40 mg,33
+2026-09-09,Escitalopram 10 mg,80
+2026-09-09,Glipizide 5 mg,52
+2026-09-09,Metoprolol succinate ER 25 mg,80
+2026-09-09,Albuterol HFA 90 mcg,5
+2026-09-09,Amlodipine 5 mg,96
+2026-09-09,Amoxicillin 500 mg,65
+2026-09-09,Azithromycin 250 mg,40
+2026-09-09,Doxycycline 100 mg,38
+2026-09-09,Fluticasone nasal 50 mcg,12
+2026-09-09,Levothyroxine 50 mcg,62
+2026-09-09,Lisinopril 10 mg,98
+2026-09-09,Losartan 50 mg,133
+2026-09-09,Omeprazole 20 mg,112
+2026-09-09,Ondansetron ODT 4 mg,35
+2026-09-10,Metformin ER 500 mg,85
+2026-09-10,Atorvastatin 20 mg,101
+2026-09-10,Metformin 500 mg,100
+2026-09-10,Sertraline 50 mg,107
+2026-09-10,Cetirizine 10 mg,86
+2026-09-10,Montelukast 10 mg,63
+2026-09-10,Rosuvastatin 10 mg,41
+2026-09-10,Loratadine 10 mg,48
+2026-09-10,Hydrochlorothiazide 25 mg,74
+2026-09-10,Pantoprazole 40 mg,37
+2026-09-10,Escitalopram 10 mg,74
+2026-09-10,Glipizide 5 mg,42
+2026-09-10,Metoprolol succinate ER 25 mg,66
+2026-09-10,Albuterol HFA 90 mcg,6
+2026-09-10,Amlodipine 5 mg,121
+2026-09-10,Amoxicillin 500 mg,75
+2026-09-10,Azithromycin 250 mg,39
+2026-09-10,Doxycycline 100 mg,32
+2026-09-10,Fluticasone nasal 50 mcg,9
+2026-09-10,Levothyroxine 50 mcg,62
+2026-09-10,Lisinopril 10 mg,123
+2026-09-10,Losartan 50 mg,160
+2026-09-10,Omeprazole 20 mg,114
+2026-09-10,Ondansetron ODT 4 mg,30
+2026-09-11,Metformin ER 500 mg,100
+2026-09-11,Atorvastatin 20 mg,126
+2026-09-11,Metformin 500 mg,111
+2026-09-11,Sertraline 50 mg,100
+2026-09-11,Cetirizine 10 mg,69
+2026-09-11,Montelukast 10 mg,52
+2026-09-11,Rosuvastatin 10 mg,45
+2026-09-11,Loratadine 10 mg,61
+2026-09-11,Hydrochlorothiazide 25 mg,85
+2026-09-11,Pantoprazole 40 mg,36
+2026-09-11,Escitalopram 10 mg,62
+2026-09-11,Glipizide 5 mg,33
+2026-09-11,Metoprolol succinate ER 25 mg,65
+2026-09-11,Albuterol HFA 90 mcg,7
+2026-09-11,Amlodipine 5 mg,146
+2026-09-11,Amoxicillin 500 mg,77
+2026-09-11,Azithromycin 250 mg,34
+2026-09-11,Doxycycline 100 mg,25
+2026-09-11,Fluticasone nasal 50 mcg,9
+2026-09-11,Levothyroxine 50 mcg,76
+2026-09-11,Lisinopril 10 mg,153
+2026-09-11,Losartan 50 mg,172
+2026-09-11,Omeprazole 20 mg,104
+2026-09-11,Ondansetron ODT 4 mg,24
+2026-09-12,Metformin ER 500 mg,127
+2026-09-12,Atorvastatin 20 mg,146
+2026-09-12,Metformin 500 mg,108
+2026-09-12,Sertraline 50 mg,83
+2026-09-12,Cetirizine 10 mg,55
+2026-09-12,Montelukast 10 mg,51
+2026-09-12,Rosuvastatin 10 mg,56
+2026-09-12,Loratadine 10 mg,73
+2026-09-12,Hydrochlorothiazide 25 mg,87
+2026-09-12,Pantoprazole 40 mg,31
+2026-09-12,Escitalopram 10 mg,49
+2026-09-12,Glipizide 5 mg,30
+2026-09-12,Metoprolol succinate ER 25 mg,79
+2026-09-12,Albuterol HFA 90 mcg,9
+2026-09-12,Amlodipine 5 mg,158
+2026-09-12,Amoxicillin 500 mg,70
+2026-09-12,Azithromycin 250 mg,27
+2026-09-12,Doxycycline 100 mg,21
+2026-09-12,Fluticasone nasal 50 mcg,10
+2026-09-12,Levothyroxine 50 mcg,96
+2026-09-12,Lisinopril 10 mg,173
+2026-09-12,Losartan 50 mg,164
+2026-09-12,Omeprazole 20 mg,85
+2026-09-12,Ondansetron ODT 4 mg,20
+2026-09-13,Metformin ER 500 mg,153
+2026-09-13,Atorvastatin 20 mg,151
+2026-09-13,Metformin 500 mg,95
+2026-09-13,Sertraline 50 mg,66
+2026-09-13,Cetirizine 10 mg,50
+2026-09-13,Montelukast 10 mg,62
+2026-09-13,Rosuvastatin 10 mg,70
+2026-09-13,Loratadine 10 mg,79
+2026-09-13,Hydrochlorothiazide 25 mg,80
+2026-09-13,Pantoprazole 40 mg,25
+2026-09-13,Escitalopram 10 mg,41
+2026-09-13,Glipizide 5 mg,34
+2026-09-13,Metoprolol succinate ER 25 mg,100
+2026-09-13,Albuterol HFA 90 mcg,10
+2026-09-13,Amlodipine 5 mg,151
+2026-09-13,Amoxicillin 500 mg,57
+2026-09-13,Azithromycin 250 mg,22
+2026-09-13,Doxycycline 100 mg,22
+2026-09-13,Fluticasone nasal 50 mcg,12
+2026-09-13,Levothyroxine 50 mcg,113
+2026-09-13,Lisinopril 10 mg,174
+2026-09-13,Losartan 50 mg,140
+2026-09-13,Omeprazole 20 mg,67
+2026-09-13,Ondansetron ODT 4 mg,18
+2026-09-14,Metformin ER 500 mg,166
+2026-09-14,Atorvastatin 20 mg,138
+2026-09-14,Metformin 500 mg,76
+2026-09-14,Sertraline 50 mg,55
+2026-09-14,Cetirizine 10 mg,56
+2026-09-14,Montelukast 10 mg,78
+2026-09-14,Rosuvastatin 10 mg,80
+2026-09-14,Loratadine 10 mg,76
+2026-09-14,Hydrochlorothiazide 25 mg,66
+2026-09-14,Pantoprazole 40 mg,20
+2026-09-14,Escitalopram 10 mg,42
+2026-09-14,Glipizide 5 mg,43
+2026-09-14,Metoprolol succinate ER 25 mg,119
+2026-09-14,Albuterol HFA 90 mcg,10
+2026-09-14,Amlodipine 5 mg,129
+2026-09-14,Amoxicillin 500 mg,45
+2026-09-14,Azithromycin 250 mg,21
+2026-09-14,Doxycycline 100 mg,27
+2026-09-14,Fluticasone nasal 50 mcg,15
+2026-09-14,Levothyroxine 50 mcg,120
+2026-09-14,Lisinopril 10 mg,156
+2026-09-14,Losartan 50 mg,111
+2026-09-14,Omeprazole 20 mg,58
+2026-09-14,Ondansetron ODT 4 mg,22
+2026-09-15,Metformin ER 500 mg,160
+2026-09-15,Atorvastatin 20 mg,114
+2026-09-15,Metformin 500 mg,61
+2026-09-15,Sertraline 50 mg,56
+2026-09-15,Cetirizine 10 mg,70
+2026-09-15,Montelukast 10 mg,93
+2026-09-15,Rosuvastatin 10 mg,81
+2026-09-15,Loratadine 10 mg,65
+2026-09-15,Hydrochlorothiazide 25 mg,52
+2026-09-15,Pantoprazole 40 mg,19
+2026-09-15,Escitalopram 10 mg,52
+2026-09-15,Glipizide 5 mg,53
+2026-09-15,Metoprolol succinate ER 25 mg,126
+2026-09-15,Albuterol HFA 90 mcg,9
+2026-09-15,Amlodipine 5 mg,103
+2026-09-15,Amoxicillin 500 mg,39
+2026-09-15,Azithromycin 250 mg,24
+2026-09-15,Doxycycline 100 mg,34
+2026-09-15,Fluticasone nasal 50 mcg,17
+2026-09-15,Levothyroxine 50 mcg,113
+2026-09-15,Lisinopril 10 mg,127
+2026-09-15,Losartan 50 mg,91
+2026-09-15,Omeprazole 20 mg,63
+2026-09-15,Ondansetron ODT 4 mg,27
+2026-09-16,Metformin ER 500 mg,138
+2026-09-16,Atorvastatin 20 mg,90
+2026-09-16,Metformin 500 mg,56
+2026-09-16,Sertraline 50 mg,69
+2026-09-16,Cetirizine 10 mg,87
+2026-09-16,Montelukast 10 mg,99
+2026-09-16,Rosuvastatin 10 mg,73
+2026-09-16,Loratadine 10 mg,52
+2026-09-16,Hydrochlorothiazide 25 mg,45
+2026-09-16,Pantoprazole 40 mg,22
+2026-09-16,Escitalopram 10 mg,65
+2026-09-16,Glipizide 5 mg,59
+2026-09-16,Metoprolol succinate ER 25 mg,119
+2026-09-16,Albuterol HFA 90 mcg,7
+2026-09-16,Amlodipine 5 mg,83
+2026-09-16,Amoxicillin 500 mg,42
+2026-09-16,Azithromycin 250 mg,30
+2026-09-16,Doxycycline 100 mg,40
+2026-09-16,Fluticasone nasal 50 mcg,17
+2026-09-16,Levothyroxine 50 mcg,95
+2026-09-16,Lisinopril 10 mg,100
+2026-09-16,Losartan 50 mg,88
+2026-09-16,Omeprazole 20 mg,78
+2026-09-16,Ondansetron ODT 4 mg,33
+2026-09-17,Metformin ER 500 mg,110
+2026-09-17,Atorvastatin 20 mg,77
+2026-09-17,Metformin 500 mg,65
+2026-09-17,Sertraline 50 mg,87
+2026-09-17,Cetirizine 10 mg,97
+2026-09-17,Montelukast 10 mg,93
+2026-09-17,Rosuvastatin 10 mg,59
+2026-09-17,Loratadine 10 mg,42
+2026-09-17,Hydrochlorothiazide 25 mg,47
+2026-09-17,Pantoprazole 40 mg,28
+2026-09-17,Escitalopram 10 mg,76
+2026-09-17,Glipizide 5 mg,58
+2026-09-17,Metoprolol succinate ER 25 mg,100
+2026-09-17,Albuterol HFA 90 mcg,6
+2026-09-17,Amlodipine 5 mg,81
+2026-09-17,Amoxicillin 500 mg,52
+2026-09-17,Azithromycin 250 mg,37
+2026-09-17,Doxycycline 100 mg,41
+2026-09-17,Fluticasone nasal 50 mcg,15
+2026-09-17,Levothyroxine 50 mcg,75
+2026-09-17,Lisinopril 10 mg,89
+2026-09-17,Losartan 50 mg,105
+2026-09-17,Omeprazole 20 mg,98
+2026-09-17,Ondansetron ODT 4 mg,36
+2026-09-18,Metformin ER 500 mg,89
+2026-09-18,Atorvastatin 20 mg,81
+2026-09-18,Metformin 500 mg,82
+2026-09-18,Sertraline 50 mg,102
+2026-09-18,Cetirizine 10 mg,97
+2026-09-18,Montelukast 10 mg,79
+2026-09-18,Rosuvastatin 10 mg,47
+2026-09-18,Loratadine 10 mg,41
+2026-09-18,Hydrochlorothiazide 25 mg,59
+2026-09-18,Pantoprazole 40 mg,33
+2026-09-18,Escitalopram 10 mg,79
+2026-09-18,Glipizide 5 mg,51
+2026-09-18,Metoprolol succinate ER 25 mg,79
+2026-09-18,Albuterol HFA 90 mcg,5
+2026-09-18,Amlodipine 5 mg,96
+2026-09-18,Amoxicillin 500 mg,65
+2026-09-18,Azithromycin 250 mg,40
+2026-09-18,Doxycycline 100 mg,38
+2026-09-18,Fluticasone nasal 50 mcg,12
+2026-09-18,Levothyroxine 50 mcg,62
+2026-09-18,Lisinopril 10 mg,98
+2026-09-18,Losartan 50 mg,134
+2026-09-18,Omeprazole 20 mg,112
+2026-09-18,Ondansetron ODT 4 mg,35
+2026-09-19,Metformin ER 500 mg,85
+2026-09-19,Atorvastatin 20 mg,101
+2026-09-19,Metformin 500 mg,100
+2026-09-19,Sertraline 50 mg,107
+2026-09-19,Cetirizine 10 mg,86
+2026-09-19,Montelukast 10 mg,62
+2026-09-19,Rosuvastatin 10 mg,41
+2026-09-19,Loratadine 10 mg,48
+2026-09-19,Hydrochlorothiazide 25 mg,74
+2026-09-19,Pantoprazole 40 mg,37
+2026-09-19,Escitalopram 10 mg,74
+2026-09-19,Glipizide 5 mg,41
+2026-09-19,Metoprolol succinate ER 25 mg,66
+2026-09-19,Albuterol HFA 90 mcg,6
+2026-09-19,Amlodipine 5 mg,122
+2026-09-19,Amoxicillin 500 mg,75
+2026-09-19,Azithromycin 250 mg,39
+2026-09-19,Doxycycline 100 mg,32
+2026-09-19,Fluticasone nasal 50 mcg,9
+2026-09-19,Levothyroxine 50 mcg,63
+2026-09-19,Lisinopril 10 mg,124
+2026-09-19,Losartan 50 mg,160
+2026-09-19,Omeprazole 20 mg,114
+2026-09-19,Ondansetron ODT 4 mg,30
+2026-09-20,Metformin ER 500 mg,100
+2026-09-20,Atorvastatin 20 mg,127
+2026-09-20,Metformin 500 mg,111
+2026-09-20,Sertraline 50 mg,99
+2026-09-20,Cetirizine 10 mg,69
+2026-09-20,Montelukast 10 mg,51
+2026-09-20,Rosuvastatin 10 mg,45
+2026-09-20,Loratadine 10 mg,61
+2026-09-20,Hydrochlorothiazide 25 mg,85
+2026-09-20,Pantoprazole 40 mg,36
+2026-09-20,Escitalopram 10 mg,61
+2026-09-20,Glipizide 5 mg,33
+2026-09-20,Metoprolol succinate ER 25 mg,66
+2026-09-20,Albuterol HFA 90 mcg,7
+2026-09-20,Amlodipine 5 mg,146
+2026-09-20,Amoxicillin 500 mg,77
+2026-09-20,Azithromycin 250 mg,34
+2026-09-20,Doxycycline 100 mg,25
+2026-09-20,Fluticasone nasal 50 mcg,9
+2026-09-20,Levothyroxine 50 mcg,76
+2026-09-20,Lisinopril 10 mg,154
+2026-09-20,Losartan 50 mg,172
+2026-09-20,Omeprazole 20 mg,103
+2026-09-20,Ondansetron ODT 4 mg,24
+2026-09-21,Metformin ER 500 mg,128
+2026-09-21,Atorvastatin 20 mg,147
+2026-09-21,Metformin 500 mg,108
+2026-09-21,Sertraline 50 mg,83
+2026-09-21,Cetirizine 10 mg,55
+2026-09-21,Montelukast 10 mg,51
+2026-09-21,Rosuvastatin 10 mg,57
+2026-09-21,Loratadine 10 mg,73
+2026-09-21,Hydrochlorothiazide 25 mg,87
+2026-09-21,Pantoprazole 40 mg,31
+2026-09-21,Escitalopram 10 mg,48
+2026-09-21,Glipizide 5 mg,30
+2026-09-21,Metoprolol succinate ER 25 mg,80
+2026-09-21,Albuterol HFA 90 mcg,9
+2026-09-21,Amlodipine 5 mg,158
+2026-09-21,Amoxicillin 500 mg,70
+2026-09-21,Azithromycin 250 mg,27
+2026-09-21,Doxycycline 100 mg,21
+2026-09-21,Fluticasone nasal 50 mcg,10
+2026-09-21,Levothyroxine 50 mcg,96
+2026-09-21,Lisinopril 10 mg,173
+2026-09-21,Losartan 50 mg,164
+2026-09-21,Omeprazole 20 mg,85
+2026-09-21,Ondansetron ODT 4 mg,19
+2026-09-22,Metformin ER 500 mg,154
+2026-09-22,Atorvastatin 20 mg,151
+2026-09-22,Metformin 500 mg,94
+2026-09-22,Sertraline 50 mg,65
+2026-09-22,Cetirizine 10 mg,50
+2026-09-22,Montelukast 10 mg,62
+2026-09-22,Rosuvastatin 10 mg,71
+2026-09-22,Loratadine 10 mg,79
+2026-09-22,Hydrochlorothiazide 25 mg,80
+2026-09-22,Pantoprazole 40 mg,25
+2026-09-22,Escitalopram 10 mg,41
+2026-09-22,Glipizide 5 mg,34
+2026-09-22,Metoprolol succinate ER 25 mg,101
+2026-09-22,Albuterol HFA 90 mcg,10
+2026-09-22,Amlodipine 5 mg,151
+2026-09-22,Amoxicillin 500 mg,57
+2026-09-22,Azithromycin 250 mg,22
+2026-09-22,Doxycycline 100 mg,22
+2026-09-22,Fluticasone nasal 50 mcg,12
+2026-09-22,Levothyroxine 50 mcg,114
+2026-09-22,Lisinopril 10 mg,174
+2026-09-22,Losartan 50 mg,140
+2026-09-22,Omeprazole 20 mg,67
+2026-09-22,Ondansetron ODT 4 mg,18
+2026-09-23,Metformin ER 500 mg,166
+2026-09-23,Atorvastatin 20 mg,138
+2026-09-23,Metformin 500 mg,75
+2026-09-23,Sertraline 50 mg,55
+2026-09-23,Cetirizine 10 mg,56
+2026-09-23,Montelukast 10 mg,78
+2026-09-23,Rosuvastatin 10 mg,80
+2026-09-23,Loratadine 10 mg,76
+2026-09-23,Hydrochlorothiazide 25 mg,65
+2026-09-23,Pantoprazole 40 mg,20
+2026-09-23,Escitalopram 10 mg,42
+2026-09-23,Glipizide 5 mg,43
+2026-09-23,Metoprolol succinate ER 25 mg,119
+2026-09-23,Albuterol HFA 90 mcg,10
+2026-09-23,Amlodipine 5 mg,129
+2026-09-23,Amoxicillin 500 mg,45
+2026-09-23,Azithromycin 250 mg,21
+2026-09-23,Doxycycline 100 mg,27
+2026-09-23,Fluticasone nasal 50 mcg,15
+2026-09-23,Levothyroxine 50 mcg,120
+2026-09-23,Lisinopril 10 mg,155
+2026-09-23,Losartan 50 mg,111
+2026-09-23,Omeprazole 20 mg,58
+2026-09-23,Ondansetron ODT 4 mg,22
+2026-09-24,Metformin ER 500 mg,160
+2026-09-24,Atorvastatin 20 mg,114
+2026-09-24,Metformin 500 mg,60
+2026-09-24,Sertraline 50 mg,56
+2026-09-24,Cetirizine 10 mg,71
+2026-09-24,Montelukast 10 mg,93
+2026-09-24,Rosuvastatin 10 mg,81
+2026-09-24,Loratadine 10 mg,65
+2026-09-24,Hydrochlorothiazide 25 mg,52
+2026-09-24,Pantoprazole 40 mg,19
+2026-09-24,Escitalopram 10 mg,52
+2026-09-24,Glipizide 5 mg,53
+2026-09-24,Metoprolol succinate ER 25 mg,126
+2026-09-24,Albuterol HFA 90 mcg,9
+2026-09-24,Amlodipine 5 mg,102
+2026-09-24,Amoxicillin 500 mg,39
+2026-09-24,Azithromycin 250 mg,24
+2026-09-24,Doxycycline 100 mg,34
+2026-09-24,Fluticasone nasal 50 mcg,17
+2026-09-24,Levothyroxine 50 mcg,112
+2026-09-24,Lisinopril 10 mg,126
+2026-09-24,Losartan 50 mg,90
+2026-09-24,Omeprazole 20 mg,63
+2026-09-24,Ondansetron ODT 4 mg,27
+2026-09-25,Metformin ER 500 mg,137
+2026-09-25,Atorvastatin 20 mg,90
+2026-09-25,Metformin 500 mg,56
+2026-09-25,Sertraline 50 mg,69
+2026-09-25,Cetirizine 10 mg,87
+2026-09-25,Montelukast 10 mg,99
+2026-09-25,Rosuvastatin 10 mg,72
+2026-09-25,Loratadine 10 mg,52
+2026-09-25,Hydrochlorothiazide 25 mg,45
+2026-09-25,Pantoprazole 40 mg,22
+2026-09-25,Escitalopram 10 mg,65
+2026-09-25,Glipizide 5 mg,59
+2026-09-25,Metoprolol succinate ER 25 mg,119
+2026-09-25,Albuterol HFA 90 mcg,7
+2026-09-25,Amlodipine 5 mg,83
+2026-09-25,Amoxicillin 500 mg,42
+2026-09-25,Azithromycin 250 mg,30
+2026-09-25,Doxycycline 100 mg,40
+2026-09-25,Fluticasone nasal 50 mcg,17
+2026-09-25,Levothyroxine 50 mcg,94
+2026-09-25,Lisinopril 10 mg,100
+2026-09-25,Losartan 50 mg,89
+2026-09-25,Omeprazole 20 mg,79
+2026-09-25,Ondansetron ODT 4 mg,33
+2026-09-26,Metformin ER 500 mg,109
+2026-09-26,Atorvastatin 20 mg,77
+2026-09-26,Metformin 500 mg,65
+2026-09-26,Sertraline 50 mg,88
+2026-09-26,Cetirizine 10 mg,97
+2026-09-26,Montelukast 10 mg,93
+2026-09-26,Rosuvastatin 10 mg,59
+2026-09-26,Loratadine 10 mg,42
+2026-09-26,Hydrochlorothiazide 25 mg,48
+2026-09-26,Pantoprazole 40 mg,28
+2026-09-26,Escitalopram 10 mg,76
+2026-09-26,Glipizide 5 mg,58
+2026-09-26,Metoprolol succinate ER 25 mg,100
+2026-09-26,Albuterol HFA 90 mcg,6
+2026-09-26,Amlodipine 5 mg,81
+2026-09-26,Amoxicillin 500 mg,52
+2026-09-26,Azithromycin 250 mg,37
+2026-09-26,Doxycycline 100 mg,41
+2026-09-26,Fluticasone nasal 50 mcg,15
+2026-09-26,Levothyroxine 50 mcg,74
+2026-09-26,Lisinopril 10 mg,89
+2026-09-26,Losartan 50 mg,106
+2026-09-26,Omeprazole 20 mg,98
+2026-09-26,Ondansetron ODT 4 mg,36
+2026-09-27,Metformin ER 500 mg,88
+2026-09-27,Atorvastatin 20 mg,82
+2026-09-27,Metformin 500 mg,83
+2026-09-27,Sertraline 50 mg,102
+2026-09-27,Cetirizine 10 mg,97
+2026-09-27,Montelukast 10 mg,79
+2026-09-27,Rosuvastatin 10 mg,47
+2026-09-27,Loratadine 10 mg,41
+2026-09-27,Hydrochlorothiazide 25 mg,59
+2026-09-27,Pantoprazole 40 mg,34
+2026-09-27,Escitalopram 10 mg,79
+2026-09-27,Glipizide 5 mg,51
+2026-09-27,Metoprolol succinate ER 25 mg,79
+2026-09-27,Albuterol HFA 90 mcg,5
+2026-09-27,Amlodipine 5 mg,97
+2026-09-27,Amoxicillin 500 mg,65
+2026-09-27,Azithromycin 250 mg,40
+2026-09-27,Doxycycline 100 mg,38
+2026-09-27,Fluticasone nasal 50 mcg,12
+2026-09-27,Levothyroxine 50 mcg,62
+2026-09-27,Lisinopril 10 mg,99
+2026-09-27,Losartan 50 mg,135
+2026-09-27,Omeprazole 20 mg,112
+2026-09-27,Ondansetron ODT 4 mg,35
+2026-09-28,Metformin ER 500 mg,85
+2026-09-28,Atorvastatin 20 mg,102
+2026-09-28,Metformin 500 mg,101
+2026-09-28,Sertraline 50 mg,107
+2026-09-28,Cetirizine 10 mg,85
+2026-09-28,Montelukast 10 mg,62
+2026-09-28,Rosuvastatin 10 mg,41
+2026-09-28,Loratadine 10 mg,48
+2026-09-28,Hydrochlorothiazide 25 mg,74
+2026-09-28,Pantoprazole 40 mg,37
+2026-09-28,Escitalopram 10 mg,73
+2026-09-28,Glipizide 5 mg,41
+2026-09-28,Metoprolol succinate ER 25 mg,65
+2026-09-28,Albuterol HFA 90 mcg,6
+2026-09-28,Amlodipine 5 mg,123
+2026-09-28,Amoxicillin 500 mg,75
+2026-09-28,Azithromycin 250 mg,39
+2026-09-28,Doxycycline 100 mg,32
+2026-09-28,Fluticasone nasal 50 mcg,9
+2026-09-28,Levothyroxine 50 mcg,63
+2026-09-28,Lisinopril 10 mg,125
+2026-09-28,Losartan 50 mg,161
+2026-09-28,Omeprazole 20 mg,114
+2026-09-28,Ondansetron ODT 4 mg,30
+2026-09-29,Metformin ER 500 mg,101
+2026-09-29,Atorvastatin 20 mg,128
+2026-09-29,Metformin 500 mg,111
+2026-09-29,Sertraline 50 mg,99
+2026-09-29,Cetirizine 10 mg,69
+2026-09-29,Montelukast 10 mg,51
+2026-09-29,Rosuvastatin 10 mg,45
+2026-09-29,Loratadine 10 mg,61
+2026-09-29,Hydrochlorothiazide 25 mg,85
+2026-09-29,Pantoprazole 40 mg,36
+2026-09-29,Escitalopram 10 mg,61
+2026-09-29,Glipizide 5 mg,33
+2026-09-29,Metoprolol succinate ER 25 mg,66
+2026-09-29,Albuterol HFA 90 mcg,7
+2026-09-29,Amlodipine 5 mg,147
+2026-09-29,Amoxicillin 500 mg,76
+2026-09-29,Azithromycin 250 mg,34
+2026-09-29,Doxycycline 100 mg,25
+2026-09-29,Fluticasone nasal 50 mcg,9
+2026-09-29,Levothyroxine 50 mcg,76
+2026-09-29,Lisinopril 10 mg,154
+2026-09-29,Losartan 50 mg,172
+2026-09-29,Omeprazole 20 mg,103
+2026-09-29,Ondansetron ODT 4 mg,24
+2026-09-30,Metformin ER 500 mg,128
+2026-09-30,Atorvastatin 20 mg,147
+2026-09-30,Metformin 500 mg,108
+2026-09-30,Sertraline 50 mg,82
+2026-09-30,Cetirizine 10 mg,55
+2026-09-30,Montelukast 10 mg,51
+2026-09-30,Rosuvastatin 10 mg,57
+2026-09-30,Loratadine 10 mg,74
+2026-09-30,Hydrochlorothiazide 25 mg,87
+2026-09-30,Pantoprazole 40 mg,31
+2026-09-30,Escitalopram 10 mg,48
+2026-09-30,Glipizide 5 mg,30
+2026-09-30,Metoprolol succinate ER 25 mg,80
+2026-09-30,Albuterol HFA 90 mcg,9
+2026-09-30,Amlodipine 5 mg,158
+2026-09-30,Amoxicillin 500 mg,69
+2026-09-30,Azithromycin 250 mg,27
+2026-09-30,Doxycycline 100 mg,21
+2026-09-30,Fluticasone nasal 50 mcg,10
+2026-09-30,Levothyroxine 50 mcg,97
+2026-09-30,Lisinopril 10 mg,174
+2026-09-30,Losartan 50 mg,164
+2026-09-30,Omeprazole 20 mg,84
+2026-09-30,Ondansetron ODT 4 mg,19
+2026-10-01,Metformin ER 500 mg,154
+2026-10-01,Atorvastatin 20 mg,151
+2026-10-01,Metformin 500 mg,94
+2026-10-01,Sertraline 50 mg,65
+2026-10-01,Cetirizine 10 mg,50
+2026-10-01,Montelukast 10 mg,62
+2026-10-01,Rosuvastatin 10 mg,71
+2026-10-01,Loratadine 10 mg,79
+2026-10-01,Hydrochlorothiazide 25 mg,79
+2026-10-01,Pantoprazole 40 mg,25
+2026-10-01,Escitalopram 10 mg,41
+2026-10-01,Glipizide 5 mg,34
+2026-10-01,Metoprolol succinate ER 25 mg,101
+2026-10-01,Albuterol HFA 90 mcg,10
+2026-10-01,Amlodipine 5 mg,150
+2026-10-01,Amoxicillin 500 mg,57
+2026-10-01,Azithromycin 250 mg,22
+2026-10-01,Doxycycline 100 mg,22
+2026-10-01,Fluticasone nasal 50 mcg,13
+2026-10-01,Levothyroxine 50 mcg,114
+2026-10-01,Lisinopril 10 mg,174
+2026-10-01,Losartan 50 mg,139
+2026-10-01,Omeprazole 20 mg,67
+2026-10-01,Ondansetron ODT 4 mg,19
+2026-10-02,Metformin ER 500 mg,167
+2026-10-02,Atorvastatin 20 mg,137
+2026-10-02,Metformin 500 mg,75
+2026-10-02,Sertraline 50 mg,55
+2026-10-02,Cetirizine 10 mg,56
+2026-10-02,Montelukast 10 mg,79
+2026-10-02,Rosuvastatin 10 mg,80
+2026-10-02,Loratadine 10 mg,76
+2026-10-02,Hydrochlorothiazide 25 mg,65
+2026-10-02,Pantoprazole 40 mg,20
+2026-10-02,Escitalopram 10 mg,42
+2026-10-02,Glipizide 5 mg,43
+2026-10-02,Metoprolol succinate ER 25 mg,119
+2026-10-02,Albuterol HFA 90 mcg,10
+2026-10-02,Amlodipine 5 mg,128
+2026-10-02,Amoxicillin 500 mg,45
+2026-10-02,Azithromycin 250 mg,21
+2026-10-02,Doxycycline 100 mg,27
+2026-10-02,Fluticasone nasal 50 mcg,15
+2026-10-02,Levothyroxine 50 mcg,120
+2026-10-02,Lisinopril 10 mg,155
+2026-10-02,Losartan 50 mg,110
+2026-10-02,Omeprazole 20 mg,58
+2026-10-02,Ondansetron ODT 4 mg,22
+2026-10-03,Metformin ER 500 mg,160
+2026-10-03,Atorvastatin 20 mg,113
+2026-10-03,Metformin 500 mg,60
+2026-10-03,Sertraline 50 mg,57
+2026-10-03,Cetirizine 10 mg,71
+2026-10-03,Montelukast 10 mg,93
+2026-10-03,Rosuvastatin 10 mg,81
+2026-10-03,Loratadine 10 mg,65
+2026-10-03,Hydrochlorothiazide 25 mg,51
+2026-10-03,Pantoprazole 40 mg,19
+2026-10-03,Escitalopram 10 mg,52
+2026-10-03,Glipizide 5 mg,53
+2026-10-03,Metoprolol succinate ER 25 mg,126
+2026-10-03,Albuterol HFA 90 mcg,9
+2026-10-03,Amlodipine 5 mg,101
+2026-10-03,Amoxicillin 500 mg,39
+2026-10-03,Azithromycin 250 mg,24
+2026-10-03,Doxycycline 100 mg,34
+2026-10-03,Fluticasone nasal 50 mcg,17
+2026-10-03,Levothyroxine 50 mcg,112
+2026-10-03,Lisinopril 10 mg,125
+2026-10-03,Losartan 50 mg,90
+2026-10-03,Omeprazole 20 mg,63
+2026-10-03,Ondansetron ODT 4 mg,28
+2026-10-04,Metformin ER 500 mg,137
+2026-10-04,Atorvastatin 20 mg,89
+2026-10-04,Metformin 500 mg,57
+2026-10-04,Sertraline 50 mg,70
+2026-10-04,Cetirizine 10 mg,88
+2026-10-04,Montelukast 10 mg,99
+2026-10-04,Rosuvastatin 10 mg,72
+2026-10-04,Loratadine 10 mg,51
+2026-10-04,Hydrochlorothiazide 25 mg,44
+2026-10-04,Pantoprazole 40 mg,22
+2026-10-04,Escitalopram 10 mg,66
+2026-10-04,Glipizide 5 mg,59
+2026-10-04,Metoprolol succinate ER 25 mg,118
+2026-10-04,Albuterol HFA 90 mcg,7
+2026-10-04,Amlodipine 5 mg,83
+2026-10-04,Amoxicillin 500 mg,42
+2026-10-04,Azithromycin 250 mg,31
+2026-10-04,Doxycycline 100 mg,40
+2026-10-04,Fluticasone nasal 50 mcg,17
+2026-10-04,Levothyroxine 50 mcg,94
+2026-10-04,Lisinopril 10 mg,99
+2026-10-04,Losartan 50 mg,89
+2026-10-04,Omeprazole 20 mg,79
+2026-10-04,Ondansetron ODT 4 mg,33
+2026-10-05,Metformin ER 500 mg,108
+2026-10-05,Atorvastatin 20 mg,77
+2026-10-05,Metformin 500 mg,66
+2026-10-05,Sertraline 50 mg,88
+2026-10-05,Cetirizine 10 mg,97
+2026-10-05,Montelukast 10 mg,93
+2026-10-05,Rosuvastatin 10 mg,59
+2026-10-05,Loratadine 10 mg,42
+2026-10-05,Hydrochlorothiazide 25 mg,48
+2026-10-05,Pantoprazole 40 mg,28
+2026-10-05,Escitalopram 10 mg,76
+2026-10-05,Glipizide 5 mg,58
+2026-10-05,Metoprolol succinate ER 25 mg,99
+2026-10-05,Albuterol HFA 90 mcg,6
+2026-10-05,Amlodipine 5 mg,81
+2026-10-05,Amoxicillin 500 mg,53
+2026-10-05,Azithromycin 250 mg,37
+2026-10-05,Doxycycline 100 mg,41
+2026-10-05,Fluticasone nasal 50 mcg,15
+2026-10-05,Levothyroxine 50 mcg,74
+2026-10-05,Lisinopril 10 mg,89
+2026-10-05,Losartan 50 mg,107
+2026-10-05,Omeprazole 20 mg,98
+2026-10-05,Ondansetron ODT 4 mg,36
+2026-10-06,Metformin ER 500 mg,88
+2026-10-06,Atorvastatin 20 mg,82
+2026-10-06,Metformin 500 mg,83
+2026-10-06,Sertraline 50 mg,103
+2026-10-06,Cetirizine 10 mg,96
+2026-10-06,Montelukast 10 mg,78
+2026-10-06,Rosuvastatin 10 mg,46
+2026-10-06,Loratadine 10 mg,41
+2026-10-06,Hydrochlorothiazide 25 mg,60
+2026-10-06,Pantoprazole 40 mg,34
+2026-10-06,Escitalopram 10 mg,79
+2026-10-06,Glipizide 5 mg,51
+2026-10-06,Metoprolol succinate ER 25 mg,78
+2026-10-06,Albuterol HFA 90 mcg,5
+2026-10-06,Amlodipine 5 mg,97
+2026-10-06,Amoxicillin 500 mg,66
+2026-10-06,Azithromycin 250 mg,40
+2026-10-06,Doxycycline 100 mg,38
+2026-10-06,Fluticasone nasal 50 mcg,12
+2026-10-06,Levothyroxine 50 mcg,62
+2026-10-06,Lisinopril 10 mg,99
+2026-10-06,Losartan 50 mg,135
+2026-10-06,Omeprazole 20 mg,112
+2026-10-06,Ondansetron ODT 4 mg,35
+2026-10-07,Metformin ER 500 mg,85
+2026-10-07,Atorvastatin 20 mg,102
+2026-10-07,Metformin 500 mg,101
+2026-10-07,Sertraline 50 mg,107
+2026-10-07,Cetirizine 10 mg,85
+2026-10-07,Montelukast 10 mg,62
+2026-10-07,Rosuvastatin 10 mg,41
+2026-10-07,Loratadine 10 mg,49
+2026-10-07,Hydrochlorothiazide 25 mg,75
+2026-10-07,Pantoprazole 40 mg,37
+2026-10-07,Escitalopram 10 mg,73
+2026-10-07,Glipizide 5 mg,41
+2026-10-07,Metoprolol succinate ER 25 mg,65
+2026-10-07,Albuterol HFA 90 mcg,6
+2026-10-07,Amlodipine 5 mg,123
+2026-10-07,Amoxicillin 500 mg,75
+2026-10-07,Azithromycin 250 mg,39
+2026-10-07,Doxycycline 100 mg,31
+2026-10-07,Fluticasone nasal 50 mcg,9
+2026-10-07,Levothyroxine 50 mcg,63
+2026-10-07,Lisinopril 10 mg,126
+2026-10-07,Losartan 50 mg,161
+2026-10-07,Omeprazole 20 mg,114
+2026-10-07,Ondansetron ODT 4 mg,30
+2026-10-08,Metformin ER 500 mg,102
+2026-10-08,Atorvastatin 20 mg,128
+2026-10-08,Metformin 500 mg,111
+2026-10-08,Sertraline 50 mg,99
+2026-10-08,Cetirizine 10 mg,68
+2026-10-08,Montelukast 10 mg,51
+2026-10-08,Rosuvastatin 10 mg,46
+2026-10-08,Loratadine 10 mg,62
+2026-10-08,Hydrochlorothiazide 25 mg,85
+2026-10-08,Pantoprazole 40 mg,36
+2026-10-08,Escitalopram 10 mg,61
+2026-10-08,Glipizide 5 mg,33
+2026-10-08,Metoprolol succinate ER 25 mg,66
+2026-10-08,Albuterol HFA 90 mcg,7
+2026-10-08,Amlodipine 5 mg,147
+2026-10-08,Amoxicillin 500 mg,76
+2026-10-08,Azithromycin 250 mg,34
+2026-10-08,Doxycycline 100 mg,25
+2026-10-08,Fluticasone nasal 50 mcg,9
+2026-10-08,Levothyroxine 50 mcg,77
+2026-10-08,Lisinopril 10 mg,155
+2026-10-08,Losartan 50 mg,172
+2026-10-08,Omeprazole 20 mg,103
+2026-10-08,Ondansetron ODT 4 mg,24
+2026-10-09,Metformin ER 500 mg,129
+2026-10-09,Atorvastatin 20 mg,147
+2026-10-09,Metformin 500 mg,108
+2026-10-09,Sertraline 50 mg,82
+2026-10-09,Cetirizine 10 mg,54
+2026-10-09,Montelukast 10 mg,52
+2026-10-09,Rosuvastatin 10 mg,57
+2026-10-09,Loratadine 10 mg,74
+2026-10-09,Hydrochlorothiazide 25 mg,87
+2026-10-09,Pantoprazole 40 mg,31
+2026-10-09,Escitalopram 10 mg,48
+2026-10-09,Glipizide 5 mg,30
+2026-10-09,Metoprolol succinate ER 25 mg,80
+2026-10-09,Albuterol HFA 90 mcg,9
+2026-10-09,Amlodipine 5 mg,158
+2026-10-09,Amoxicillin 500 mg,69
+2026-10-09,Azithromycin 250 mg,27
+2026-10-09,Doxycycline 100 mg,21
+2026-10-09,Fluticasone nasal 50 mcg,10
+2026-10-09,Levothyroxine 50 mcg,97
+2026-10-09,Lisinopril 10 mg,174
+2026-10-09,Losartan 50 mg,163
+2026-10-09,Omeprazole 20 mg,84
+2026-10-09,Ondansetron ODT 4 mg,19
+2026-10-10,Metformin ER 500 mg,155
+2026-10-10,Atorvastatin 20 mg,151
+2026-10-10,Metformin 500 mg,93
+2026-10-10,Sertraline 50 mg,65
+2026-10-10,Cetirizine 10 mg,50
+2026-10-10,Montelukast 10 mg,63
+2026-10-10,Rosuvastatin 10 mg,71
+2026-10-10,Loratadine 10 mg,79
+2026-10-10,Hydrochlorothiazide 25 mg,79
+2026-10-10,Pantoprazole 40 mg,25
+2026-10-10,Escitalopram 10 mg,41
+2026-10-10,Glipizide 5 mg,34
+2026-10-10,Metoprolol succinate ER 25 mg,102
+2026-10-10,Albuterol HFA 90 mcg,10
+2026-10-10,Amlodipine 5 mg,150
+2026-10-10,Amoxicillin 500 mg,56
+2026-10-10,Azithromycin 250 mg,22
+2026-10-10,Doxycycline 100 mg,22
+2026-10-10,Fluticasone nasal 50 mcg,13
+2026-10-10,Levothyroxine 50 mcg,114
+2026-10-10,Lisinopril 10 mg,174
+2026-10-10,Losartan 50 mg,138
+2026-10-10,Omeprazole 20 mg,66
+2026-10-10,Ondansetron ODT 4 mg,19
+2026-10-11,Metformin ER 500 mg,167
+2026-10-11,Atorvastatin 20 mg,137
+2026-10-11,Metformin 500 mg,75
+2026-10-11,Sertraline 50 mg,55
+2026-10-11,Cetirizine 10 mg,57
+2026-10-11,Montelukast 10 mg,79
+2026-10-11,Rosuvastatin 10 mg,80
+2026-10-11,Loratadine 10 mg,76
+2026-10-11,Hydrochlorothiazide 25 mg,65
+2026-10-11,Pantoprazole 40 mg,20
+2026-10-11,Escitalopram 10 mg,42
+2026-10-11,Glipizide 5 mg,43
+2026-10-11,Metoprolol succinate ER 25 mg,120
+2026-10-11,Albuterol HFA 90 mcg,10
+2026-10-11,Amlodipine 5 mg,127
+2026-10-11,Amoxicillin 500 mg,45
+2026-10-11,Azithromycin 250 mg,21
+2026-10-11,Doxycycline 100 mg,27
+2026-10-11,Fluticasone nasal 50 mcg,15
+2026-10-11,Levothyroxine 50 mcg,120
+2026-10-11,Lisinopril 10 mg,154
+2026-10-11,Losartan 50 mg,109
+2026-10-11,Omeprazole 20 mg,58
+2026-10-11,Ondansetron ODT 4 mg,22
+2026-10-12,Metformin ER 500 mg,159
+2026-10-12,Atorvastatin 20 mg,112
+2026-10-12,Metformin 500 mg,60
+2026-10-12,Sertraline 50 mg,57
+2026-10-12,Cetirizine 10 mg,72
+2026-10-12,Montelukast 10 mg,94
+2026-10-12,Rosuvastatin 10 mg,81
+2026-10-12,Loratadine 10 mg,64
+2026-10-12,Hydrochlorothiazide 25 mg,51
+2026-10-12,Pantoprazole 40 mg,19
+2026-10-12,Escitalopram 10 mg,53
+2026-10-12,Glipizide 5 mg,53
+2026-10-12,Metoprolol succinate ER 25 mg,126
+2026-10-12,Albuterol HFA 90 mcg,9
+2026-10-12,Amlodipine 5 mg,101
+2026-10-12,Amoxicillin 500 mg,39
+2026-10-12,Azithromycin 250 mg,24
+2026-10-12,Doxycycline 100 mg,34
+2026-10-12,Fluticasone nasal 50 mcg,17
+2026-10-12,Levothyroxine 50 mcg,112
+2026-10-12,Lisinopril 10 mg,124
+2026-10-12,Losartan 50 mg,90
+2026-10-12,Omeprazole 20 mg,63
+2026-10-12,Ondansetron ODT 4 mg,28
+2026-10-13,Metformin ER 500 mg,136
+2026-10-13,Atorvastatin 20 mg,89
+2026-10-13,Metformin 500 mg,57
+2026-10-13,Sertraline 50 mg,70
+2026-10-13,Cetirizine 10 mg,88
+2026-10-13,Montelukast 10 mg,99
+2026-10-13,Rosuvastatin 10 mg,72
+2026-10-13,Loratadine 10 mg,51
+2026-10-13,Hydrochlorothiazide 25 mg,44
+2026-10-13,Pantoprazole 40 mg,22
+2026-10-13,Escitalopram 10 mg,66
+2026-10-13,Glipizide 5 mg,59
+2026-10-13,Metoprolol succinate ER 25 mg,118
+2026-10-13,Albuterol HFA 90 mcg,7
+2026-10-13,Amlodipine 5 mg,83
+2026-10-13,Amoxicillin 500 mg,42
+2026-10-13,Azithromycin 250 mg,31
+2026-10-13,Doxycycline 100 mg,40
+2026-10-13,Fluticasone nasal 50 mcg,17
+2026-10-13,Levothyroxine 50 mcg,93
+2026-10-13,Lisinopril 10 mg,99
+2026-10-13,Losartan 50 mg,89
+2026-10-13,Omeprazole 20 mg,79
+2026-10-13,Ondansetron ODT 4 mg,33
+2026-10-14,Metformin ER 500 mg,108
+2026-10-14,Atorvastatin 20 mg,77
+2026-10-14,Metformin 500 mg,66
+2026-10-14,Sertraline 50 mg,88
+2026-10-14,Cetirizine 10 mg,98
+2026-10-14,Montelukast 10 mg,93
+2026-10-14,Rosuvastatin 10 mg,58
+2026-10-14,Loratadine 10 mg,42
+2026-10-14,Hydrochlorothiazide 25 mg,48
+2026-10-14,Pantoprazole 40 mg,28
+2026-10-14,Escitalopram 10 mg,77
+2026-10-14,Glipizide 5 mg,58
+2026-10-14,Metoprolol succinate ER 25 mg,99
+2026-10-14,Albuterol HFA 90 mcg,6
+2026-10-14,Amlodipine 5 mg,81
+2026-10-14,Amoxicillin 500 mg,53
+2026-10-14,Azithromycin 250 mg,37
+2026-10-14,Doxycycline 100 mg,41
+2026-10-14,Fluticasone nasal 50 mcg,15
+2026-10-14,Levothyroxine 50 mcg,74
+2026-10-14,Lisinopril 10 mg,89
+2026-10-14,Losartan 50 mg,107
+2026-10-14,Omeprazole 20 mg,99
+2026-10-14,Ondansetron ODT 4 mg,36
+2026-10-15,Metformin ER 500 mg,88
+2026-10-15,Atorvastatin 20 mg,82
+2026-10-15,Metformin 500 mg,84
+2026-10-15,Sertraline 50 mg,103
+2026-10-15,Cetirizine 10 mg,96
+2026-10-15,Montelukast 10 mg,78
+2026-10-15,Rosuvastatin 10 mg,46
+2026-10-15,Loratadine 10 mg,41
+2026-10-15,Hydrochlorothiazide 25 mg,60
+2026-10-15,Pantoprazole 40 mg,34
+2026-10-15,Escitalopram 10 mg,79
+2026-10-15,Glipizide 5 mg,51
+2026-10-15,Metoprolol succinate ER 25 mg,78
+2026-10-15,Albuterol HFA 90 mcg,5
+2026-10-15,Amlodipine 5 mg,98
+2026-10-15,Amoxicillin 500 mg,66
+2026-10-15,Azithromycin 250 mg,40
+2026-10-15,Doxycycline 100 mg,38
+2026-10-15,Fluticasone nasal 50 mcg,12
+2026-10-15,Levothyroxine 50 mcg,62
+2026-10-15,Lisinopril 10 mg,100
+2026-10-15,Losartan 50 mg,136
+2026-10-15,Omeprazole 20 mg,112
+2026-10-15,Ondansetron ODT 4 mg,35
+2026-10-16,Metformin ER 500 mg,86
+2026-10-16,Atorvastatin 20 mg,103
+2026-10-16,Metformin 500 mg,102
+2026-10-16,Sertraline 50 mg,107
+2026-10-16,Cetirizine 10 mg,84
+2026-10-16,Montelukast 10 mg,61
+2026-10-16,Rosuvastatin 10 mg,41
+2026-10-16,Loratadine 10 mg,49
+2026-10-16,Hydrochlorothiazide 25 mg,75
+2026-10-16,Pantoprazole 40 mg,37
+2026-10-16,Escitalopram 10 mg,73
+2026-10-16,Glipizide 5 mg,41
+2026-10-16,Metoprolol succinate ER 25 mg,65
+2026-10-16,Albuterol HFA 90 mcg,6
+2026-10-16,Amlodipine 5 mg,124
+2026-10-16,Amoxicillin 500 mg,75
+2026-10-16,Azithromycin 250 mg,39
+2026-10-16,Doxycycline 100 mg,31
+2026-10-16,Fluticasone nasal 50 mcg,9
+2026-10-16,Levothyroxine 50 mcg,63
+2026-10-16,Lisinopril 10 mg,126
+2026-10-16,Losartan 50 mg,162
+2026-10-16,Omeprazole 20 mg,114
+2026-10-16,Ondansetron ODT 4 mg,30
+2026-10-17,Metformin ER 500 mg,102
+2026-10-17,Atorvastatin 20 mg,129
+2026-10-17,Metformin 500 mg,111
+2026-10-17,Sertraline 50 mg,98
+2026-10-17,Cetirizine 10 mg,68
+2026-10-17,Montelukast 10 mg,51
+2026-10-17,Rosuvastatin 10 mg,46
+2026-10-17,Loratadine 10 mg,62
+2026-10-17,Hydrochlorothiazide 25 mg,86
+2026-10-17,Pantoprazole 40 mg,36
+2026-10-17,Escitalopram 10 mg,60
+2026-10-17,Glipizide 5 mg,32
+2026-10-17,Metoprolol succinate ER 25 mg,66
+2026-10-17,Albuterol HFA 90 mcg,7
+2026-10-17,Amlodipine 5 mg,148
+2026-10-17,Amoxicillin 500 mg,76
+2026-10-17,Azithromycin 250 mg,34
+2026-10-17,Doxycycline 100 mg,25
+2026-10-17,Fluticasone nasal 50 mcg,9
+2026-10-17,Levothyroxine 50 mcg,77
+2026-10-17,Lisinopril 10 mg,156
+2026-10-17,Losartan 50 mg,172
+2026-10-17,Omeprazole 20 mg,102
+2026-10-17,Ondansetron ODT 4 mg,24
+2026-10-18,Metformin ER 500 mg,130
+2026-10-18,Atorvastatin 20 mg,148
+2026-10-18,Metformin 500 mg,108
+2026-10-18,Sertraline 50 mg,82
+2026-10-18,Cetirizine 10 mg,54
+2026-10-18,Montelukast 10 mg,52
+2026-10-18,Rosuvastatin 10 mg,58
+2026-10-18,Loratadine 10 mg,74
+2026-10-18,Hydrochlorothiazide 25 mg,87
+2026-10-18,Pantoprazole 40 mg,31
+2026-10-18,Escitalopram 10 mg,48
+2026-10-18,Glipizide 5 mg,30
+2026-10-18,Metoprolol succinate ER 25 mg,81
+2026-10-18,Albuterol HFA 90 mcg,9
+2026-10-18,Amlodipine 5 mg,158
+2026-10-18,Amoxicillin 500 mg,69
+2026-10-18,Azithromycin 250 mg,27
+2026-10-18,Doxycycline 100 mg,21
+2026-10-18,Fluticasone nasal 50 mcg,10
+2026-10-18,Levothyroxine 50 mcg,98
+2026-10-18,Lisinopril 10 mg,174
+2026-10-18,Losartan 50 mg,163
+2026-10-18,Omeprazole 20 mg,83
+2026-10-18,Ondansetron ODT 4 mg,19
+2026-10-19,Metformin ER 500 mg,155
+2026-10-19,Atorvastatin 20 mg,151
+2026-10-19,Metformin 500 mg,93
+2026-10-19,Sertraline 50 mg,64
+2026-10-19,Cetirizine 10 mg,50
+2026-10-19,Montelukast 10 mg,63
+2026-10-19,Rosuvastatin 10 mg,71
+2026-10-19,Loratadine 10 mg,79
+2026-10-19,Hydrochlorothiazide 25 mg,79
+2026-10-19,Pantoprazole 40 mg,24
+2026-10-19,Escitalopram 10 mg,41
+2026-10-19,Glipizide 5 mg,34
+2026-10-19,Metoprolol succinate ER 25 mg,102
+2026-10-19,Albuterol HFA 90 mcg,10
+2026-10-19,Amlodipine 5 mg,150
+2026-10-19,Amoxicillin 500 mg,56
+2026-10-19,Azithromycin 250 mg,22
+2026-10-19,Doxycycline 100 mg,22
+2026-10-19,Fluticasone nasal 50 mcg,13
+2026-10-19,Levothyroxine 50 mcg,114
+2026-10-19,Lisinopril 10 mg,173
+2026-10-19,Losartan 50 mg,138
+2026-10-19,Omeprazole 20 mg,66
+2026-10-19,Ondansetron ODT 4 mg,19

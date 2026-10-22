@@ -1,0 +1,25 @@
+date,drug_name,on_hand_units,on_order_units,expected_arrival_date
+2026-10-19,Metformin ER 500 mg,341,400,2026-10-20
+2026-10-19,Atorvastatin 20 mg,0,1000,2026-10-20
+2026-10-19,Metformin 500 mg,90,500,2026-10-20
+2026-10-19,Sertraline 50 mg,400,200,2026-10-20
+2026-10-19,Cetirizine 10 mg,38,600,2026-10-20
+2026-10-19,Montelukast 10 mg,521,200,2026-10-20
+2026-10-19,Rosuvastatin 10 mg,270,300,2026-10-20
+2026-10-19,Loratadine 10 mg,233,300,2026-10-20
+2026-10-19,Hydrochlorothiazide 25 mg,552,100,2026-10-21
+2026-10-19,Pantoprazole 40 mg,0,200,2026-10-20
+2026-10-19,Escitalopram 10 mg,434,300,2026-10-20
+2026-10-19,Glipizide 5 mg,293,200,2026-10-20
+2026-10-19,Metoprolol succinate ER 25 mg,1267,300,2026-10-20
+2026-10-19,Albuterol HFA 90 mcg,100,23,2026-10-20
+2026-10-19,Amlodipine 5 mg,5525,300,2026-10-20
+2026-10-19,Amoxicillin 500 mg,824,400,2026-10-20
+2026-10-19,Azithromycin 250 mg,851,100,2026-10-21
+2026-10-19,Doxycycline 100 mg,1427,0,
+2026-10-19,Fluticasone nasal 50 mcg,266,34,2026-10-20
+2026-10-19,Levothyroxine 50 mcg,2350,400,2026-10-20
+2026-10-19,Lisinopril 10 mg,1883,600,2026-10-20
+2026-10-19,Losartan 50 mg,3581,200,2026-10-21
+2026-10-19,Omeprazole 20 mg,3826,500,2026-10-20
+2026-10-19,Ondansetron ODT 4 mg,1129,200,2026-10-20
