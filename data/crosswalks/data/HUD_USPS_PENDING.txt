@@ -1,1 +1,0 @@
-HUD USPS Crosswalk: HUD states that current downloads/API access require portal login and an access token. Obtain the required 2012 Q1–2022 Q4 files from https://www.huduser.gov/portal/datasets/usps_crosswalk.html, place them under cache/hud_usps/, and record quarter/geography type before normalization.

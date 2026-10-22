@@ -1,1 +1,0 @@
-MSH International Medical Products Price Guide (2015) was downloaded to data/msh_price_guide_2015.pdf. The PDF is image-only in this environment (no embedded PDF text operators were found), and no OCR executable or library is installed. The table observations therefore remain a documented blocked extraction rather than an invented or lossy parse.

@@ -1,1 +1,0 @@
-ASHP Drug Shortages is catalogued but not extracted: no public, no-credential bulk dataset or API is available. A commercial license/API key is required. Source: https://github.com/ASHP-Software/drugShortagesDoc

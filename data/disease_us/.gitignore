@@ -1,9 +1,0 @@
-cache/*
-!cache/.gitkeep
-data/*
-!data/.gitkeep
-metadata/extraction_status.json
-metadata/validation_errors.json
-
-__pycache__/
-*.pyc

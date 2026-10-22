@@ -1,9 +1,0 @@
-# Raw source downloads and generated extracts can be large; keep them local.
-cache/
-data/
-metadata/extraction_status.json
-metadata/validation_errors.json
-
-# Python runtime artifacts
-__pycache__/
-*.pyc

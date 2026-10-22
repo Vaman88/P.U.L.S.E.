@@ -1,1 +1,0 @@
-WHO ATC/DDD: complete machine-readable annual indexes and historical vintages require an authorized WHOCC portal download. Drop authorized files under cache/who_atc/ and document the release in source_manifest.json.

@@ -1,6 +1,0 @@
-__pycache__/
-*.pyc
-cache/
-data/by_source/
-metadata/extraction_status.json
-metadata/validation_errors.json

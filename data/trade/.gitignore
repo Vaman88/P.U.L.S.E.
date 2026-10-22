@@ -1,5 +1,0 @@
-# Raw source downloads + extracted data (large; kept local, not committed)
-cache
-data
-__pycache__/
-*.pyc

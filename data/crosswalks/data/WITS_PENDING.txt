@@ -1,1 +1,0 @@
-WITS product concordances: the official portal exposes an interactive download workflow. No stable unauthenticated bulk endpoint was assumed. Download an authorized table from https://wits.worldbank.org/product_concordance.html into cache/wits/ and document its release before normalization.

@@ -1,25 +1,20 @@
 # PULSE website
 
-The only website in this branch is [`frontend/index.html`](frontend/index.html). It is a static research preview with a workspace, an illustrative 24-medication results screen, and API documentation links. The FastAPI service and research model remain separate from this preview.
+This folder is a standalone static preview. It contains the page and the four
+local assets it needs. No build step, Node packages, API, database, or model are
+required to view it.
 
 ## Run locally
 
-From `website/`:
+From the repository root, run:
 
 ```bash
-./serve-website.sh
+python -m http.server 4173 --bind 127.0.0.1 --directory website
 ```
 
-Open `http://127.0.0.1:4173/`. The preview does not need the API to show its illustrative results. Choose two CSVs and select **Train on this device** to see the progress bar and results. The selected files are not read or uploaded; the results come from `frontend/public/illustrative-plan.json` and are not model output.
+Open <http://127.0.0.1:4173/>.
 
-To run the API separately, install `requirements.txt` and run `python -m backend.main` from `website/`.
-
-## Browser tests
-
-```bash
-cd frontend
-npm ci
-npx playwright test
-```
-
-The Docker frontend serves the same `frontend/index.html` as the local script. The API and worker retain their existing services.
+The workspace displays an illustrative plan from `public/illustrative-plan.json`.
+The selected CSV files are not read or uploaded, and the preview sign-in does not
+create an account. The public signals and API screens are reference mockups;
+there is no live API in this branch.

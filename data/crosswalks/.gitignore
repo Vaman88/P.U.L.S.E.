@@ -1,6 +1,0 @@
-# Raw source downloads are reproducible and can be very large.
-cache/
-
-# Python runtime artifacts
-__pycache__/
-*.pyc

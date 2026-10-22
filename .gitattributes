@@ -1,7 +1,0 @@
-data/**/data.json filter=lfs diff=lfs merge=lfs -text
-data/targeted_additions/nppes_provider_locations/raw/** filter=lfs diff=lfs merge=lfs -text
-data/targeted_additions/disease_surveillance_current/raw/** filter=lfs diff=lfs merge=lfs -text
-data/economics_global/cache/** filter=lfs diff=lfs merge=lfs -text
-data/final_data/features/** filter=lfs diff=lfs merge=lfs -text
-data/targeted_additions/*/raw/** filter=lfs diff=lfs merge=lfs -text
-data/targeted_additions/*/data/** filter=lfs diff=lfs merge=lfs -text
